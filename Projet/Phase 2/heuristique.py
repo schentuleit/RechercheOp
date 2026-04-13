@@ -19,7 +19,7 @@ import os
 PHASE4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'Phase 4')
 sys.path.insert(0, PHASE4)
 
-from preprocess import generate_instance
+from preprocess import generate_instance, n_vehicles_dynamique
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -354,8 +354,8 @@ if __name__ == "__main__":
     parser.add_argument("--seed",     type=int, default=42,   help="Graine aléatoire (défaut: 42)")
     args = parser.parse_args()
 
-    # Calcul automatique du nombre de véhicules si non précisé
-    n_vehicles = args.vehicles if args.vehicles is not None else max(3, args.n // 5)
+    # Calcul automatique du nombre de véhicules si non précisé (formule partagée du générateur)
+    n_vehicles = args.vehicles if args.vehicles is not None else n_vehicles_dynamique(args.n)
 
     instance = generate_instance(n=args.n, n_vehicles=n_vehicles, seed=args.seed)
     routes, cout, stats = resoudre_heuristique(instance)
