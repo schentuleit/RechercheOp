@@ -20,7 +20,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 
-from preprocess import generate_instance, preprocess
+from preprocess import generate_instance, preprocess, n_vehicles_dynamique
 from model      import VRPTWModel
 from env        import VRPTWEnv
 
@@ -115,7 +115,7 @@ def compute_reinforce_loss(log_probs_sample, entropy_episode, L_sample, L_greedy
 
 def train(
     n_clients           = 20,
-    n_vehicles          = 3,
+    n_vehicles          = None,  # None = dynamique via n_vehicles_dynamique(n)
     n_epochs            = 200,
     steps_per_epoch     = 200,
     accumulation        = 8,
@@ -134,6 +134,10 @@ def train(
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     else:
         device = torch.device(device_str)
+
+    # Résolution du nombre de véhicules
+    if n_vehicles is None:
+        n_vehicles = n_vehicles_dynamique(n_clients)
 
     if save_dir is None:
         save_dir = os.path.join(HERE, f'checkpoints_n{n_clients}')
@@ -196,7 +200,7 @@ def train(
             step_losses, step_dist_s, step_dist_g = [], [], []
 
             for acc in range(accumulation):
-                instance      = generate_instance(n_clients, n_vehicles, seed=None)
+                instance      = generate_instance(n_clients, seed=None)  # n_vehicles dynamique
                 node_features = preprocess(instance)
 
                 L_s, lps, entropies = run_episode(
