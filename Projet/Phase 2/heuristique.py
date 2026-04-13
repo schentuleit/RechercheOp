@@ -19,7 +19,7 @@ import os
 PHASE4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'Phase 4')
 sys.path.insert(0, PHASE4)
 
-from preprocess import generate_instance, n_vehicles_dynamique
+from preprocess import generate_instance
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -350,14 +350,19 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="Heuristique NNH + 2-opt pour le VRPTW")
     parser.add_argument("--n",        type=int, default=20,   help="Nombre de clients (défaut: 20)")
-    parser.add_argument("--vehicles", type=int, default=None, help="Nombre de véhicules (défaut: auto = n // 5, min 3)")
+    parser.add_argument("--vehicles", type=int, default=None, help="Nombre de véhicules (défaut: auto = ceil(n/10), min 3)")
     parser.add_argument("--seed",     type=int, default=42,   help="Graine aléatoire (défaut: 42)")
     args = parser.parse_args()
 
     # Calcul automatique du nombre de véhicules si non précisé (formule partagée du générateur)
-    n_vehicles = args.vehicles if args.vehicles is not None else n_vehicles_dynamique(args.n)
-
-    instance = generate_instance(n=args.n, n_vehicles=n_vehicles, seed=args.seed)
+    # On laisse generate_instance() calculer n_vehicles lui-même quand non précisé,
+    # pour garantir la cohérence capacité/demande (évite les instances trivalement infaisables).
+    if args.vehicles is not None:
+        n_vehicles = args.vehicles
+        instance   = generate_instance(n=args.n, n_vehicles=n_vehicles, seed=args.seed)
+    else:
+        instance   = generate_instance(n=args.n, seed=args.seed)
+        n_vehicles = instance['n_vehicles']
     routes, cout, stats = resoudre_heuristique(instance)
 
     SEP  = "=" * 62
