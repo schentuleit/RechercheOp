@@ -120,6 +120,10 @@ def cout_penalise(routes, instance):
     demands  = instance['demands']
     capacity = instance['capacity']
     horizon  = instance['horizon']
+        
+        
+    penalite = max(500.0, 50.0 * instance['n'])
+
 
     total = 0.0
 
@@ -136,7 +140,8 @@ def cout_penalise(routes, instance):
         # Pénalité capacité
         charge = sum(demands[c] for c in route)
         if charge > capacity + 1e-6:
-            total += 500.0 * (charge - capacity) #pénalité proportionnelle au dépassement de capacité
+            total += penalite * (charge - capacity)
+     #pénalité proportionnelle au dépassement de capacité
     # ex : Si la capacité est 100 et qu'on transporte 120 → pénalité = 500 × 20 = 10 000. 
     # C'est énorme comparé à une distance typique de 500-1000, donc l'algo va naturellement éviter ces solutions.
         
@@ -147,12 +152,13 @@ def cout_penalise(routes, instance):
             t = t + durees[pos, client]
             t = max(t, tw[client, 0])
             if t > tw[client, 1]:
-                total += 200.0 * (t - tw[client, 1]) # pénalité proportionnelle retard
+                total += penalite * (t - tw[client, 1])
             t  += service[client]
             pos = client
 
+
         if t + durees[pos, 0] > horizon:
-            total += 500.0 * (t + durees[pos, 0] - horizon)
+            total += penalite * (t + durees[pos, 0] - horizon)
 
     return total
 
