@@ -1,4 +1,4 @@
-#Rapport de Recherche Opérationnelle : Algorithme Génétique
+# Rapport de Recherche Opérationnelle : Algorithme Génétique
 
 ## 1. Introduction
 Bienvenue dans ce Notebook dédié à la résolution du problème de **tournées de véhicules avec fenêtres temporelles (VRPTW)**. Pour répondre aux enjeux de l'ADEME, nous avons implémenté une métaheuristique puissante : l'**Algorithme Génétique**.
