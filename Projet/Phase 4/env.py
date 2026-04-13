@@ -1,10 +1,17 @@
 """
 env.py — Environnement VRPTW multi-véhicules
 =============================================
+v3 — ajout POMO
+
 Conventions d'index :
     - index 0     = dépôt
     - index 1..n  = clients
     - véhicules 0..K-1
+
+Modification vs v2 :
+    - reset_with_first_node(first_node) : reset standard puis force
+      le premier client visité par le véhicule 0. Utilisé par POMO
+      pour diversifier les rollouts sans toucher à l'architecture.
 """
 
 import numpy as np
@@ -33,6 +40,8 @@ class VRPTWEnv:
         self.total_dist    = 0.0
         self.done          = False
 
+    # ── Reset standard ────────────────────────────────────────────────────────
+
     def reset(self):
         self.visited       = np.zeros(self.N, dtype=bool)
         self.visited[0]    = True
@@ -44,8 +53,44 @@ class VRPTWEnv:
         self.done          = False
         return self._get_obs()
 
+    # ── Reset POMO ────────────────────────────────────────────────────────────
+
+    def reset_with_first_node(self, first_node: int):
+        """
+        Reset standard puis force le premier client visité.
+
+        Utilisé par POMO : on génère n rollouts depuis le même dépôt,
+        chacun avec un premier client différent. Le dépôt reste index 0,
+        la structure dépôt → tournée → dépôt est inchangée.
+
+        Paramètres
+        ----------
+        first_node : int
+            Index du premier client à visiter (1 ≤ first_node ≤ n).
+            Le pas est effectué sans log_prob (pas de gradient sur ce pas forcé).
+
+        Retourne
+        --------
+        obs : dict — état après le premier pas forcé
+        valide : bool — False si first_node est invalide dès le départ
+                        (hors TW ou hors capacité), auquel que ce rollout
+                        est ignoré dans run_pomo().
+        """
+        self.reset()
+
+        # Vérifier que first_node est dans le masque initial
+        masque_initial = self.compute_mask()
+        if not masque_initial[first_node]:
+            # Client inaccessible dès le départ — rollout invalide
+            return self._get_obs(), False
+
+        # Effectuer le pas forcé sans log_prob (pas de gradient)
+        obs, _ = self.step(first_node, log_prob=0.0)
+        return obs, True
+
+    # ── Transition ────────────────────────────────────────────────────────────
+
     def step(self, ville, log_prob):
-        # Garde-fou silencieux — pas d'assertion qui crashe sur GPU
         if self.done:
             return self._get_obs(), self.done
 
@@ -53,33 +98,28 @@ class VRPTWEnv:
         trajet    = self.durees[self.pos[k], ville]
         t_arrivee = self.t_dispo[k] + trajet
 
-        # Attente si arrivée avant ouverture fenêtre
         t_arrivee = max(t_arrivee, self.tw_raw[ville, 0])
-
-        # Serrage silencieux si léger dépassement (arrondis flottants)
         t_arrivee = min(t_arrivee, self.tw_raw[ville, 1])
 
-        # Distance parcourue
         dist_parcourue  = np.linalg.norm(self.coords[self.pos[k]] - self.coords[ville])
         self.total_dist += dist_parcourue
 
-        # Mise à jour état véhicule k
         self.t_dispo[k]        = t_arrivee + self.service_raw[ville]
         self.capa_restante[k] -= self.demands_raw[ville]
         self.pos[k]            = ville
 
-        # Masque global — ville visitée exclue pour tous les véhicules
         if ville != 0:
             self.visited[ville] = True
 
         self.log_probs.append(log_prob)
 
-        # Fin d'épisode si tous les clients visités
         if self.visited[1:].all():
             self._retour_depot_tous()
             self.done = True
 
         return self._get_obs(), self.done
+
+    # ── Masque ────────────────────────────────────────────────────────────────
 
     def compute_mask(self):
         """
@@ -104,6 +144,8 @@ class VRPTWEnv:
             masque[i] = True
 
         return masque
+
+    # ── Utilitaires ───────────────────────────────────────────────────────────
 
     def get_active_vehicle(self):
         return int(np.argmin(self.t_dispo))
