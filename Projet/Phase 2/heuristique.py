@@ -119,7 +119,7 @@ def construire_solution_nnh(instance):
     en requiert davantage pour couvrir tous les clients, des véhicules
     supplémentaires sont créés automatiquement (garantie de C1).
 
-    Complexité : O(n²) par véhicule.
+    Complexité : O(n²) par véhicule, O(n³) au total dans le pire cas (K véhicules en O(n)).
 
     @param instance : dict généré par generate_instance()
     @return         : list of lists — routes[k] = liste des clients du véhicule k
@@ -138,12 +138,15 @@ def construire_solution_nnh(instance):
     clients_infaisables = []  # clients qu'aucun véhicule ne peut servir
 
     # Pré-détection des clients fondamentalement infaisables :
-    # un client est infaisable si même depuis le dépôt à t=0, C4 ou C5 ne peut pas être respecté.
+    # C3 : demande individuelle dépasse la capacité totale du véhicule
+    # C4 : fenêtre temporelle fermée avant même d'arriver depuis le dépôt à t=0
+    # C5 : retour au dépôt impossible même si on part immédiatement
     for client in list(clients_non_livres):
         t_arrivee_min = max(durees[0, client], tw[client, 0])
+        c3_ok  = demands[client] <= capacity + 1e-6
         tw_ok  = t_arrivee_min <= tw[client, 1] + 1e-6
         c5_ok  = t_arrivee_min + service[client] + durees[client, 0] <= horizon + 1e-6
-        if not tw_ok or not c5_ok:
+        if not c3_ok or not tw_ok or not c5_ok:
             clients_infaisables.append(client)
             clients_non_livres.discard(client)
 
@@ -197,9 +200,11 @@ def construire_solution_nnh(instance):
         if route:
             routes.append(route)
         else:
-            # Un client faisable individuellement n'est plus accessible
-            # depuis aucune position courante → ouvrir un nouveau véhicule
-            # le résoudra au prochain tour de boucle
+            # Aucun client n'est accessible depuis le dépôt avec un véhicule neuf.
+            # Après la pré-détection, ce cas ne devrait pas se produire.
+            # Par sécurité, on considère les clients restants comme infaisables
+            # (C1 reste garanti : ils apparaîtront dans une route invalide).
+            clients_infaisables.extend(clients_non_livres)
             break
 
     # Les clients infaisables sont ajoutés en dernier pour garantir C1.
@@ -228,6 +233,9 @@ def ameliorer_2opt(routes, instance):
         Δ = c(r[i-1], r[i]) + c(r[j], r[j+1])
           - c(r[i-1], r[j]) - c(r[i], r[j+1])
     Si Δ > 0 → l'inversion raccourcit la route.
+
+    Complexité : O(m²) par itération (m = taille de la route), O(m⁴) pire cas total.
+    En pratique O(m²) à O(m³) grâce à la convergence rapide sur instances TW-contraintes.
 
     @param routes   : list of lists — solution produite par NNH
     @param instance : dict
