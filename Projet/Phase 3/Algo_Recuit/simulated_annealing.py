@@ -11,7 +11,8 @@ import sys
 import os
 
 # Pour pouvoir importer generate_instance et preprocess depuis Phase 4
-PHASE4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'Phase 4')
+# Phase 4 est au même niveau que Phase 3, donc on monte 2 niveaux (Algo_Recuit -> Phase 3 -> Projet) puis on descend dans Phase 4
+PHASE4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'Phase 4')
 sys.path.insert(0, PHASE4)
 
 from preprocess import generate_instance, preprocess # on importe la génération d'instance et le prétraitement de la phase 4 pour réutiliser les mêmes données et fonctions de coût
@@ -133,19 +134,19 @@ def cout_penalise(routes, instance):
             total += np.linalg.norm(coords[route[i]] - coords[route[i + 1]])
         total += np.linalg.norm(coords[route[-1]] - coords[0])
 
-        # Pénalité capacité
+        # Pénalité capacité (AUGMENTÉE)
         charge = sum(demands[c] for c in route)
         if charge > capacity + 1e-6:
-            total += 500.0 * (charge - capacity)
+            total += 1000.0 * (charge - capacity)  # 2x pour forcer le respect
 
-        # Pénalité fenêtres temporelles et horizon
+        # Pénalité fenêtres temporelles et horizon (AUGMENTÉE)
         t   = 0.0
         pos = 0
         for client in route:
             t = t + durees[pos, client]
             t = max(t, tw[client, 0])
             if t > tw[client, 1]:
-                total += 200.0 * (t - tw[client, 1])
+                total += 500.0 * (t - tw[client, 1])  # 2.5x pour forcer le respect
             t  += service[client]
             pos = client
 
@@ -193,6 +194,74 @@ def est_valide(route, instance):
         return False
 
     return True
+
+
+def verifier_solution_admissible(routes, instance):
+    """
+    Vérifie si une solution complète respecte TOUTES les contraintes C1-C6.
+
+    @param routes   : list of lists — solution à vérifier
+    @param instance : dict
+    @return : (bool, dict) — (admissible, rapport des violations)
+    """
+    rapport = {
+        'C1_couverture': True,
+        'C3_capacite': True,
+        'C4_temps': True,
+        'violations_capacite': [],
+        'violations_temps': [],
+        'cout_penalise': cout_penalise(routes, instance)
+    }
+
+    n = instance['n']
+    durees = instance['durees']
+    tw = instance['time_windows']
+    service = instance['service_times']
+    demands = instance['demands']
+    capacity = instance['capacity']
+    horizon = instance['horizon']
+
+    # C1 : Couverture
+    tous_clients = [c for route in routes for c in route]
+    if len(tous_clients) != n or len(set(tous_clients)) != n:
+        rapport['C1_couverture'] = False
+
+    # C3 et C4 : Pour chaque route
+    for k, route in enumerate(routes):
+        if not route:
+            continue
+
+        # C3 : Capacité
+        charge = sum(demands[c] for c in route)
+        if charge > capacity + 1e-6:
+            rapport['C3_capacite'] = False
+            rapport['violations_capacite'].append({
+                'route': k,
+                'charge': charge,
+                'capacity': capacity,
+                'depassement': charge - capacity
+            })
+
+        # C4 : Fenêtres temporelles
+        t = 0.0
+        pos = 0
+        for client in route:
+            t = t + durees[pos, client]
+            t = max(t, tw[client, 0])
+            if t > tw[client, 1]:
+                rapport['C4_temps'] = False
+                rapport['violations_temps'].append({
+                    'route': k,
+                    'client': client,
+                    'arrivee': t,
+                    'limite': tw[client, 1],
+                    'depassement': t - tw[client, 1]
+                })
+            t += service[client]
+            pos = client
+
+    admissible = rapport['C1_couverture'] and rapport['C3_capacite'] and rapport['C4_temps']
+    return admissible, rapport
 
 
 
