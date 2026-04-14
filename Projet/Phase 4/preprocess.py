@@ -87,7 +87,7 @@ def generate_instance(n: int, n_vehicles: int = None, seed: int = 42) -> dict:
     # ── Capacité ─────────────────────────────────────────────────────────────
     # Recalculée après n_vehicles pour garantir la cohérence
     total_demand = demands.sum()
-    capacity     = total_demand / n_vehicles * 1.2
+    capacity     = total_demand / n_vehicles * 1.4
 
     # ── Durées de service ─────────────────────────────────────────────────────
     service_times      = np.zeros(n + 1)
@@ -112,16 +112,19 @@ def generate_instance(n: int, n_vehicles: int = None, seed: int = 42) -> dict:
 
     for i in range(1, n + 1):
         profil = profils[i - 1]
+        t_min  = durees[0, i]   # ← temps minimal depuis le dépôt
 
         if profil == 'strict':
-            largeur = rng.uniform(30, 60)
+            largeur = rng.uniform(60, 90)    # élargi : 60-90 au lieu de 30-60
         elif profil == 'modere':
             largeur = rng.uniform(90, 150)
         else:
             largeur = rng.uniform(200, 300)
 
-        a_i = rng.uniform(0, horizon - largeur)
-        b_i = min(horizon, a_i + largeur)
+        # Ouverture au plus tôt à t_min — le véhicule peut toujours arriver
+        marge_max = max(1.0, horizon - t_min - largeur - service_times[i])
+        a_i       = t_min + rng.uniform(0, marge_max)
+        b_i       = min(horizon, a_i + largeur)
         time_windows[i] = [round(a_i, 1), round(b_i, 1)]
 
     return {
