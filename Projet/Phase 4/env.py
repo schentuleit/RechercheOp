@@ -147,6 +147,31 @@ class VRPTWEnv:
 
     # ── Utilitaires ───────────────────────────────────────────────────────────
 
+    def prochaine_tw_accessible(self):
+        """
+        Retourne le temps minimum auquel le véhicule actif pourra
+        servir un client en attendant l'ouverture de sa TW.
+        Retourne float('inf') si aucun client n'est accessible même en attendant.
+        """
+        k = int(np.argmin(self.t_dispo))
+        prochaine = float('inf')
+
+        for i in range(1, self.N):
+            if self.visited[i]:
+                continue
+            if self.demands_raw[i] > self.capa_restante[k] + 1e-6:
+                continue
+            trajet    = self.durees[self.pos[k], i]
+            t_arrivee = self.t_dispo[k] + trajet
+
+            # Client accessible en attendant son ouverture
+            if t_arrivee < self.tw_raw[i, 0]:
+                t_retour = self.tw_raw[i, 0] + self.service_raw[i] + self.durees[i, 0]
+                if t_retour <= self.horizon + 1e-6:
+                    prochaine = min(prochaine, self.tw_raw[i, 0])
+
+        return prochaine
+
     def get_active_vehicle(self):
         return int(np.argmin(self.t_dispo))
 

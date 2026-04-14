@@ -87,12 +87,21 @@ def run_episode_from(model, instance, node_features, H, h_bar, device,
 
         if not mask_np.any():
             k = env.get_active_vehicle()
-            env.t_dispo[k] = env.horizon + 1.0
-            if _tous_bloques(env):
-                env.force_done()
-                break
-            obs = env._get_obs()
-            continue
+            prochaine = env.prochaine_tw_accessible()
+
+            if prochaine < float('inf'):
+                # Faire avancer l'horloge du véhicule jusqu'à la prochaine TW
+                env.t_dispo[k] = prochaine
+                obs = env._get_obs()
+                continue
+            else:
+                # Vraiment bloqué — tuer ce véhicule
+                env.t_dispo[k] = env.horizon + 1.0
+                if _tous_bloques(env):
+                    env.force_done()
+                    break
+                obs = env._get_obs()
+                continue
 
         last_node_t = torch.tensor([ctx['last_node']], dtype=torch.long).to(device)
         capa_t      = torch.tensor([ctx['capa_norm']], dtype=torch.float32).to(device)
