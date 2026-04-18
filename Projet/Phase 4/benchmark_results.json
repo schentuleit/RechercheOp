@@ -1,0 +1,911 @@
+{
+  "n_instances": 100,
+  "heuristic_feasible_rate": 0.61,
+  "model_feasible_rate": 0.97,
+  "heuristic_avg_served": 9.5,
+  "model_avg_served": 9.97,
+  "heuristic_avg_cost_on_feasible": 495.35911836689036,
+  "model_avg_cost_on_feasible": 471.5855417425279,
+  "details": [
+    {
+      "seed": 0,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 369.54730393275474,
+      "model_cost": 666.8819218286726,
+      "heuristic_served": 7,
+      "model_served": 10
+    },
+    {
+      "seed": 1,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 407.8129596411646,
+      "model_cost": 489.88747587614967,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 2,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 433.5226608102521,
+      "model_cost": 391.1251778149342,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 3,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 355.4254314540548,
+      "model_cost": 384.2792322032702,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 4,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 488.96483214955396,
+      "model_cost": 567.5636853816861,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 5,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 626.1856293297229,
+      "model_cost": 471.4981735003139,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 6,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 614.7164329721581,
+      "model_cost": 595.2610090338578,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 7,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 539.4464623715868,
+      "model_cost": 439.26602895659585,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 8,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 492.29010604899565,
+      "model_cost": 397.9974897862426,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 9,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 455.7274532251038,
+      "model_cost": 521.037635128787,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 10,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 528.0327507517271,
+      "model_cost": 440.13971269414964,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 11,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 449.5943014218353,
+      "model_cost": 498.2780873172147,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 12,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 525.3925054773573,
+      "model_cost": 532.216195069345,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 13,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 559.1359651916205,
+      "model_cost": 625.1883996211141,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 14,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 413.33911355011077,
+      "model_cost": 402.6475432250111,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 15,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 565.4476361324802,
+      "model_cost": 455.6048111036907,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 16,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 543.087270398888,
+      "model_cost": 554.956239588661,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 17,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 450.5223118646658,
+      "model_cost": 402.57557068755943,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 18,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 371.0849987626585,
+      "model_cost": 516.3792463339639,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 19,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 329.12329801758864,
+      "model_cost": 357.84052255070065,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 20,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 484.8886531862383,
+      "model_cost": 514.3894898734638,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 21,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 426.3056585922682,
+      "model_cost": 449.99258941524096,
+      "heuristic_served": 8,
+      "model_served": 10
+    },
+    {
+      "seed": 22,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 563.8414074046328,
+      "model_cost": 510.85466511185473,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 23,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 279.11049705893066,
+      "model_cost": 378.4090364546517,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 24,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 515.5095301216994,
+      "model_cost": 410.09975707029645,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 25,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 408.5306577632202,
+      "model_cost": 467.6175789621957,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 26,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 355.22999520041566,
+      "model_cost": 373.76609366253825,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 27,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 461.1412101235941,
+      "model_cost": 468.22652806058875,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 28,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 513.4925273943626,
+      "model_cost": 519.4962127066182,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 29,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 523.6189476132689,
+      "model_cost": 570.2760114772698,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 30,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 415.2092440448909,
+      "model_cost": 423.5865585535209,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 31,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 691.7507750078861,
+      "model_cost": 580.2778329352848,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 32,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 380.8960360279929,
+      "model_cost": 394.4737752195662,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 33,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 439.4414531826555,
+      "model_cost": 455.0700103669647,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 34,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 445.7334648485847,
+      "model_cost": 477.08497353422666,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 35,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 653.3006267456791,
+      "model_cost": 662.5164522696087,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 36,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 402.22212383006183,
+      "model_cost": 372.1365015298766,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 37,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 359.93564185278206,
+      "model_cost": 454.4790655504622,
+      "heuristic_served": 8,
+      "model_served": 10
+    },
+    {
+      "seed": 38,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 415.5263236060309,
+      "model_cost": 404.5758170804687,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 39,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 398.4052940103806,
+      "model_cost": 355.2893230463805,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 40,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 505.7167455977377,
+      "model_cost": 562.5956121654393,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 41,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 552.2545713963862,
+      "model_cost": 451.3023887166301,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 42,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 405.1257662516081,
+      "model_cost": 381.63493532751016,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 43,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 362.50753885805756,
+      "model_cost": 475.5512400678871,
+      "heuristic_served": 8,
+      "model_served": 10
+    },
+    {
+      "seed": 44,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 525.5610542817268,
+      "model_cost": 596.9941928888941,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 45,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 356.13189702830994,
+      "model_cost": 355.1650447055727,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 46,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 392.317704345176,
+      "model_cost": 505.82884585558025,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 47,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 455.9209056778305,
+      "model_cost": 486.1348883917489,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 48,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 309.810529782691,
+      "model_cost": 430.6267361059952,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 49,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 453.09851257180173,
+      "model_cost": 494.5279866748394,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 50,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 517.5794493753845,
+      "model_cost": 498.79164312656457,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 51,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 461.561833080505,
+      "model_cost": 430.07038011782,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 52,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 509.9179080400696,
+      "model_cost": 540.1177411725314,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 53,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 431.8345360737517,
+      "model_cost": 417.78334383071314,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 54,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 383.3730417450948,
+      "model_cost": 472.5162269498525,
+      "heuristic_served": 8,
+      "model_served": 10
+    },
+    {
+      "seed": 55,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 574.8373447768124,
+      "model_cost": 482.07527915918104,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 56,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 539.2584357562894,
+      "model_cost": 539.2584357562895,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 57,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 238.0116135240821,
+      "model_cost": 436.4997939197621,
+      "heuristic_served": 7,
+      "model_served": 10
+    },
+    {
+      "seed": 58,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 576.6845394583743,
+      "model_cost": 461.7599563180173,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 59,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 492.00620061534283,
+      "model_cost": 541.9659200373457,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 60,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 414.2280089417212,
+      "model_cost": 556.6070112734644,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 61,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 533.9598450429454,
+      "model_cost": 478.71680331885034,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 62,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 442.34073339715786,
+      "model_cost": 441.5393317882174,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 63,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 402.9223110419331,
+      "model_cost": 382.5561184965988,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 64,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 508.5555260909572,
+      "model_cost": 444.9387288901645,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 65,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 459.25117990181116,
+      "model_cost": 459.02026885204407,
+      "heuristic_served": 8,
+      "model_served": 10
+    },
+    {
+      "seed": 66,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 378.34947385551106,
+      "model_cost": 466.00412146412253,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 67,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 402.2646804255605,
+      "model_cost": 370.13292872792454,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 68,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 525.822651735462,
+      "model_cost": 555.5270315612761,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 69,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 428.8449218933704,
+      "model_cost": 399.1692927707043,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 70,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 561.1747151075944,
+      "model_cost": 554.5642400798504,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 71,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 447.61590833988134,
+      "model_cost": 497.5949243204293,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 72,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 437.3267665564624,
+      "model_cost": 427.07613330444224,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 73,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 431.9015698783295,
+      "model_cost": 549.7961694627685,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 74,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 553.730129927539,
+      "model_cost": 585.3398503610167,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 75,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 475.0730114606465,
+      "model_cost": 486.3927150781068,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 76,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 379.8658695867777,
+      "model_cost": 515.9761101158625,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 77,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 453.8453249490296,
+      "model_cost": 460.9645952259921,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 78,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 342.69113816478534,
+      "model_cost": 393.8095865764976,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 79,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 564.3915801859876,
+      "model_cost": 542.7291953973165,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 80,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 395.03627467945745,
+      "model_cost": 379.5575896989273,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 81,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 459.3713044478485,
+      "model_cost": 450.49486489813694,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 82,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 484.0744207120083,
+      "model_cost": 445.9627389014789,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 83,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 416.4824519859171,
+      "model_cost": 351.09214937059284,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 84,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 453.8526810466961,
+      "model_cost": 455.0333354507896,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 85,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 501.5070507917367,
+      "model_cost": 563.7038948733319,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 86,
+      "heuristic_feasible": true,
+      "model_feasible": false,
+      "heuristic_cost": 472.3357042032857,
+      "model_cost": 398.66854459629883,
+      "heuristic_served": 10,
+      "model_served": 9
+    },
+    {
+      "seed": 87,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 397.11456969355186,
+      "model_cost": 443.6860514351353,
+      "heuristic_served": 9,
+      "model_served": 10
+    },
+    {
+      "seed": 88,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 442.39834534654943,
+      "model_cost": 513.3919665277189,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 89,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 497.76843617087434,
+      "model_cost": 428.7430798348412,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 90,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 497.9048175822368,
+      "model_cost": 498.3852986511181,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 91,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 480.0702765564562,
+      "model_cost": 391.2732226299304,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 92,
+      "heuristic_feasible": false,
+      "model_feasible": false,
+      "heuristic_cost": 431.8742693288295,
+      "model_cost": 445.14051945298127,
+      "heuristic_served": 9,
+      "model_served": 9
+    },
+    {
+      "seed": 93,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 582.0015438198178,
+      "model_cost": 582.3683368934063,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 94,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 438.1351928938637,
+      "model_cost": 387.8538757023455,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 95,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 378.05336611149636,
+      "model_cost": 382.225710792726,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 96,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 379.7730018024877,
+      "model_cost": 442.25579772145477,
+      "heuristic_served": 8,
+      "model_served": 10
+    },
+    {
+      "seed": 97,
+      "heuristic_feasible": false,
+      "model_feasible": true,
+      "heuristic_cost": 465.23315846566095,
+      "model_cost": 433.8128600761061,
+      "heuristic_served": 8,
+      "model_served": 10
+    },
+    {
+      "seed": 98,
+      "heuristic_feasible": true,
+      "model_feasible": true,
+      "heuristic_cost": 520.6517791797326,
+      "model_cost": 511.05859663034374,
+      "heuristic_served": 10,
+      "model_served": 10
+    },
+    {
+      "seed": 99,
+      "heuristic_feasible": false,
+      "model_feasible": false,
+      "heuristic_cost": 318.8560232995991,
+      "model_cost": 302.471553666226,
+      "heuristic_served": 9,
+      "model_served": 9
+    }
+  ]
+}
