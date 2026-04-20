@@ -11,9 +11,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 554.05,
+    "am_cost": 482.72,
     "am_feasible": true,
-    "am_gap_pct": 14.78
+    "am_gap_pct": 0.0
   },
   {
     "n": 10,
@@ -27,9 +27,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 478.66,
+    "am_cost": 452.11,
     "am_feasible": true,
-    "am_gap_pct": 26.65
+    "am_gap_pct": 19.63
   },
   {
     "n": 10,
@@ -43,9 +43,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 458.86,
+    "am_cost": 385.11,
     "am_feasible": true,
-    "am_gap_pct": 27.15
+    "am_gap_pct": 6.72
   },
   {
     "n": 10,
@@ -59,9 +59,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 443.63,
+    "am_cost": 379.69,
     "am_feasible": true,
-    "am_gap_pct": 22.39
+    "am_gap_pct": 4.75
   },
   {
     "n": 10,
@@ -75,9 +75,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 447.21,
+    "am_cost": 450.01,
     "am_feasible": true,
-    "am_gap_pct": 12.61
+    "am_gap_pct": 13.31
   },
   {
     "n": 10,
@@ -91,9 +91,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 471.5,
+    "am_cost": 456.8,
     "am_feasible": true,
-    "am_gap_pct": 11.41
+    "am_gap_pct": 7.94
   },
   {
     "n": 10,
@@ -107,9 +107,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 583.21,
+    "am_cost": 500.29,
     "am_feasible": true,
-    "am_gap_pct": 34.69
+    "am_gap_pct": 15.54
   },
   {
     "n": 10,
@@ -123,9 +123,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 576.71,
+    "am_cost": 439.27,
     "am_feasible": true,
-    "am_gap_pct": 41.35
+    "am_gap_pct": 7.66
   },
   {
     "n": 10,
@@ -139,9 +139,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 492.29,
+    "am_cost": 345.99,
     "am_feasible": true,
-    "am_gap_pct": 50.82
+    "am_gap_pct": 6.0
   },
   {
     "n": 10,
@@ -155,9 +155,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 517.33,
+    "am_cost": 511.35,
     "am_feasible": true,
-    "am_gap_pct": 15.46
+    "am_gap_pct": 14.13
   },
   {
     "n": 10,
@@ -171,9 +171,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 440.14,
+    "am_cost": 427.36,
     "am_feasible": true,
-    "am_gap_pct": 8.77
+    "am_gap_pct": 5.61
   },
   {
     "n": 10,
@@ -187,9 +187,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 517.9,
+    "am_cost": 420.71,
     "am_feasible": true,
-    "am_gap_pct": 23.1
+    "am_gap_pct": 0.0
   },
   {
     "n": 10,
@@ -203,9 +203,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 479.99,
+    "am_cost": 509.25,
     "am_feasible": true,
-    "am_gap_pct": 15.2
+    "am_gap_pct": 22.22
   },
   {
     "n": 10,
@@ -219,9 +219,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 576.46,
+    "am_cost": 508.76,
     "am_feasible": true,
-    "am_gap_pct": 28.23
+    "am_gap_pct": 13.17
   },
   {
     "n": 10,
@@ -251,9 +251,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 455.6,
+    "am_cost": 476.0,
     "am_feasible": true,
-    "am_gap_pct": 11.28
+    "am_gap_pct": 16.26
   },
   {
     "n": 10,
@@ -267,9 +267,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 599.06,
+    "am_cost": 457.21,
     "am_feasible": true,
-    "am_gap_pct": 39.53
+    "am_gap_pct": 6.49
   },
   {
     "n": 10,
@@ -283,9 +283,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 470.22,
+    "am_cost": 443.72,
     "am_feasible": true,
-    "am_gap_pct": 19.49
+    "am_gap_pct": 12.76
   },
   {
     "n": 10,
@@ -299,9 +299,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 509.91,
+    "am_cost": 445.98,
     "am_feasible": true,
-    "am_gap_pct": 19.04
+    "am_gap_pct": 4.11
   },
   {
     "n": 10,
@@ -315,9 +315,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 393.42,
+    "am_cost": 349.23,
     "am_feasible": true,
-    "am_gap_pct": 12.65
+    "am_gap_pct": 0.0
   },
   {
     "n": 10,
@@ -331,9 +331,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 509.34,
+    "am_cost": 408.4,
     "am_feasible": true,
-    "am_gap_pct": 27.52
+    "am_gap_pct": 2.25
   },
   {
     "n": 10,
@@ -347,9 +347,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 506.09,
+    "am_cost": 437.53,
     "am_feasible": true,
-    "am_gap_pct": 15.67
+    "am_gap_pct": 0.0
   },
   {
     "n": 10,
@@ -363,9 +363,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 544.13,
+    "am_cost": 413.52,
     "am_feasible": true,
-    "am_gap_pct": 45.96
+    "am_gap_pct": 10.93
   },
   {
     "n": 10,
@@ -379,9 +379,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 324.32,
+    "am_cost": 320.29,
     "am_feasible": true,
-    "am_gap_pct": 5.33
+    "am_gap_pct": 4.02
   },
   {
     "n": 10,
@@ -395,9 +395,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 434.46,
+    "am_cost": 387.85,
     "am_feasible": true,
-    "am_gap_pct": 24.58
+    "am_gap_pct": 11.21
   },
   {
     "n": 10,
@@ -411,9 +411,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 459.04,
+    "am_cost": 397.91,
     "am_feasible": true,
-    "am_gap_pct": 17.83
+    "am_gap_pct": 2.14
   },
   {
     "n": 10,
@@ -427,9 +427,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 352.78,
+    "am_cost": 348.37,
     "am_feasible": true,
-    "am_gap_pct": 1.26
+    "am_gap_pct": -0.0
   },
   {
     "n": 10,
@@ -443,9 +443,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 488.56,
+    "am_cost": 419.49,
     "am_feasible": true,
-    "am_gap_pct": 23.29
+    "am_gap_pct": 5.86
   },
   {
     "n": 10,
@@ -459,9 +459,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 519.5,
+    "am_cost": 455.45,
     "am_feasible": true,
-    "am_gap_pct": 24.59
+    "am_gap_pct": 9.23
   },
   {
     "n": 10,
@@ -475,9 +475,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 591.93,
+    "am_cost": 546.53,
     "am_feasible": true,
-    "am_gap_pct": 22.11
+    "am_gap_pct": 12.74
   },
   {
     "n": 20,
@@ -491,9 +491,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 782.48,
+    "am_cost": 804.93,
     "am_feasible": true,
-    "am_gap_pct": 22.88
+    "am_gap_pct": 26.4
   },
   {
     "n": 20,
@@ -507,9 +507,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 788.64,
+    "am_cost": 660.64,
     "am_feasible": true,
-    "am_gap_pct": 42.02
+    "am_gap_pct": 18.97
   },
   {
     "n": 20,
@@ -523,9 +523,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 638.56,
+    "am_cost": 592.07,
     "am_feasible": true,
-    "am_gap_pct": 14.83
+    "am_gap_pct": 6.47
   },
   {
     "n": 20,
@@ -539,9 +539,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 728.77,
+    "am_cost": 715.99,
     "am_feasible": true,
-    "am_gap_pct": 22.79
+    "am_gap_pct": 20.64
   },
   {
     "n": 20,
@@ -555,9 +555,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 640.31,
+    "am_cost": 690.42,
     "am_feasible": true,
-    "am_gap_pct": 11.79
+    "am_gap_pct": 20.54
   },
   {
     "n": 20,
@@ -571,9 +571,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 613.42,
+    "am_cost": 657.87,
     "am_feasible": true,
-    "am_gap_pct": 16.79
+    "am_gap_pct": 25.25
   },
   {
     "n": 20,
@@ -587,9 +587,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 781.54,
+    "am_cost": 653.56,
     "am_feasible": true,
-    "am_gap_pct": 45.69
+    "am_gap_pct": 21.83
   },
   {
     "n": 20,
@@ -603,9 +603,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 679.51,
+    "am_cost": 701.19,
     "am_feasible": true,
-    "am_gap_pct": 11.76
+    "am_gap_pct": 15.32
   },
   {
     "n": 20,
@@ -619,9 +619,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 558.77,
+    "am_cost": 549.51,
     "am_feasible": true,
-    "am_gap_pct": 26.1
+    "am_gap_pct": 24.01
   },
   {
     "n": 20,
@@ -635,9 +635,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 804.79,
+    "am_cost": 916.59,
     "am_feasible": true,
-    "am_gap_pct": 21.04
+    "am_gap_pct": 37.86
   },
   {
     "n": 20,
@@ -651,9 +651,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 682.17,
+    "am_cost": 652.03,
     "am_feasible": true,
-    "am_gap_pct": 14.43
+    "am_gap_pct": 9.38
   },
   {
     "n": 20,
@@ -667,9 +667,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 674.57,
+    "am_cost": 557.28,
     "am_feasible": true,
-    "am_gap_pct": 22.81
+    "am_gap_pct": 1.46
   },
   {
     "n": 20,
@@ -683,9 +683,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 773.87,
+    "am_cost": 753.82,
     "am_feasible": true,
-    "am_gap_pct": 40.77
+    "am_gap_pct": 37.12
   },
   {
     "n": 20,
@@ -699,9 +699,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 743.62,
+    "am_cost": 567.46,
     "am_feasible": true,
-    "am_gap_pct": 39.66
+    "am_gap_pct": 6.58
   },
   {
     "n": 20,
@@ -715,9 +715,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 607.54,
+    "am_cost": 636.53,
     "am_feasible": true,
-    "am_gap_pct": 13.39
+    "am_gap_pct": 18.8
   },
   {
     "n": 20,
@@ -731,9 +731,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 535.18,
+    "am_cost": 588.6,
     "am_feasible": true,
-    "am_gap_pct": 13.02
+    "am_gap_pct": 24.3
   },
   {
     "n": 20,
@@ -747,9 +747,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 621.66,
+    "am_cost": 675.5,
     "am_feasible": true,
-    "am_gap_pct": 7.04
+    "am_gap_pct": 16.31
   },
   {
     "n": 20,
@@ -763,9 +763,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 669.5,
+    "am_cost": 674.78,
     "am_feasible": true,
-    "am_gap_pct": 21.6
+    "am_gap_pct": 22.55
   },
   {
     "n": 20,
@@ -779,9 +779,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 860.61,
+    "am_cost": 643.7,
     "am_feasible": true,
-    "am_gap_pct": 57.74
+    "am_gap_pct": 17.99
   },
   {
     "n": 20,
@@ -795,9 +795,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 611.32,
+    "am_cost": 600.14,
     "am_feasible": true,
-    "am_gap_pct": 35.15
+    "am_gap_pct": 32.68
   },
   {
     "n": 20,
@@ -811,9 +811,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 702.18,
+    "am_cost": 604.14,
     "am_feasible": true,
-    "am_gap_pct": 34.81
+    "am_gap_pct": 15.99
   },
   {
     "n": 20,
@@ -827,9 +827,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 612.76,
+    "am_cost": 592.04,
     "am_feasible": true,
-    "am_gap_pct": 20.15
+    "am_gap_pct": 16.09
   },
   {
     "n": 20,
@@ -843,9 +843,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 715.57,
+    "am_cost": 570.46,
     "am_feasible": true,
-    "am_gap_pct": 56.38
+    "am_gap_pct": 24.67
   },
   {
     "n": 20,
@@ -859,9 +859,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 588.38,
+    "am_cost": 646.72,
     "am_feasible": true,
-    "am_gap_pct": 13.09
+    "am_gap_pct": 24.31
   },
   {
     "n": 20,
@@ -875,9 +875,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 736.9,
+    "am_cost": 624.28,
     "am_feasible": true,
-    "am_gap_pct": 39.35
+    "am_gap_pct": 18.06
   },
   {
     "n": 20,
@@ -891,9 +891,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 721.52,
+    "am_cost": 692.26,
     "am_feasible": true,
-    "am_gap_pct": 28.53
+    "am_gap_pct": 23.31
   },
   {
     "n": 20,
@@ -907,9 +907,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 557.52,
+    "am_cost": 676.75,
     "am_feasible": true,
-    "am_gap_pct": 9.01
+    "am_gap_pct": 32.32
   },
   {
     "n": 20,
@@ -923,9 +923,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 710.7,
+    "am_cost": 714.18,
     "am_feasible": true,
-    "am_gap_pct": 22.68
+    "am_gap_pct": 23.28
   },
   {
     "n": 20,
@@ -939,9 +939,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 733.07,
+    "am_cost": 668.09,
     "am_feasible": true,
-    "am_gap_pct": 21.06
+    "am_gap_pct": 10.33
   },
   {
     "n": 20,
@@ -955,9 +955,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 729.34,
+    "am_cost": 667.13,
     "am_feasible": true,
-    "am_gap_pct": 18.58
+    "am_gap_pct": 8.47
   },
   {
     "n": 50,
@@ -971,9 +971,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1199.16,
+    "am_cost": 1209.33,
     "am_feasible": true,
-    "am_gap_pct": 26.84
+    "am_gap_pct": 27.92
   },
   {
     "n": 50,
@@ -987,9 +987,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 990.62,
+    "am_cost": 1112.98,
     "am_feasible": true,
-    "am_gap_pct": 16.34
+    "am_gap_pct": 30.71
   },
   {
     "n": 50,
@@ -1003,9 +1003,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1192.3,
+    "am_cost": 1145.31,
     "am_feasible": true,
-    "am_gap_pct": 38.57
+    "am_gap_pct": 33.11
   },
   {
     "n": 50,
@@ -1019,9 +1019,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1289.19,
+    "am_cost": 1198.09,
     "am_feasible": true,
-    "am_gap_pct": 36.91
+    "am_gap_pct": 27.24
   },
   {
     "n": 50,
@@ -1035,9 +1035,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1309.72,
+    "am_cost": 1036.1,
     "am_feasible": true,
-    "am_gap_pct": 50.3
+    "am_gap_pct": 18.9
   },
   {
     "n": 50,
@@ -1051,9 +1051,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1288.29,
+    "am_cost": 1204.62,
     "am_feasible": true,
-    "am_gap_pct": 37.24
+    "am_gap_pct": 28.32
   },
   {
     "n": 50,
@@ -1067,9 +1067,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1175.6,
+    "am_cost": 1173.82,
     "am_feasible": true,
-    "am_gap_pct": 30.99
+    "am_gap_pct": 30.8
   },
   {
     "n": 50,
@@ -1083,9 +1083,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1237.76,
+    "am_cost": 1245.03,
     "am_feasible": true,
-    "am_gap_pct": 35.97
+    "am_gap_pct": 36.76
   },
   {
     "n": 50,
@@ -1099,9 +1099,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1121.98,
+    "am_cost": 1098.95,
     "am_feasible": true,
-    "am_gap_pct": 33.41
+    "am_gap_pct": 30.67
   },
   {
     "n": 50,
@@ -1115,9 +1115,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1217.48,
+    "am_cost": 1122.52,
     "am_feasible": true,
-    "am_gap_pct": 44.7
+    "am_gap_pct": 33.42
   },
   {
     "n": 50,
@@ -1131,9 +1131,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1131.48,
+    "am_cost": 1081.31,
     "am_feasible": true,
-    "am_gap_pct": 23.77
+    "am_gap_pct": 18.28
   },
   {
     "n": 50,
@@ -1147,9 +1147,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1345.36,
+    "am_cost": 1222.16,
     "am_feasible": true,
-    "am_gap_pct": 35.81
+    "am_gap_pct": 23.38
   },
   {
     "n": 50,
@@ -1163,9 +1163,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1084.66,
+    "am_cost": 1152.52,
     "am_feasible": true,
-    "am_gap_pct": 29.82
+    "am_gap_pct": 37.94
   },
   {
     "n": 50,
@@ -1179,9 +1179,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1215.63,
+    "am_cost": 1139.74,
     "am_feasible": true,
-    "am_gap_pct": 32.22
+    "am_gap_pct": 23.97
   },
   {
     "n": 50,
@@ -1195,9 +1195,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1186.26,
+    "am_cost": 1145.53,
     "am_feasible": true,
-    "am_gap_pct": 23.31
+    "am_gap_pct": 19.07
   },
   {
     "n": 50,
@@ -1211,9 +1211,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1229.09,
+    "am_cost": 1179.88,
     "am_feasible": true,
-    "am_gap_pct": 36.21
+    "am_gap_pct": 30.76
   },
   {
     "n": 50,
@@ -1227,9 +1227,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1191.08,
+    "am_cost": 1163.13,
     "am_feasible": true,
-    "am_gap_pct": 26.3
+    "am_gap_pct": 23.33
   },
   {
     "n": 50,
@@ -1243,9 +1243,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1193.39,
+    "am_cost": 1213.86,
     "am_feasible": true,
-    "am_gap_pct": 30.05
+    "am_gap_pct": 32.28
   },
   {
     "n": 50,
@@ -1259,9 +1259,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1119.98,
+    "am_cost": 1292.95,
     "am_feasible": true,
-    "am_gap_pct": 23.49
+    "am_gap_pct": 42.56
   },
   {
     "n": 50,
@@ -1275,9 +1275,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1173.98,
+    "am_cost": 1049.33,
     "am_feasible": true,
-    "am_gap_pct": 32.0
+    "am_gap_pct": 17.98
   },
   {
     "n": 50,
@@ -1291,9 +1291,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1217.13,
+    "am_cost": 1227.2,
     "am_feasible": true,
-    "am_gap_pct": 32.16
+    "am_gap_pct": 33.25
   },
   {
     "n": 50,
@@ -1307,9 +1307,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1212.73,
+    "am_cost": 1278.68,
     "am_feasible": true,
-    "am_gap_pct": 31.01
+    "am_gap_pct": 38.13
   },
   {
     "n": 50,
@@ -1323,9 +1323,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1314.47,
+    "am_cost": 1185.27,
     "am_feasible": true,
-    "am_gap_pct": 50.19
+    "am_gap_pct": 35.43
   },
   {
     "n": 50,
@@ -1339,9 +1339,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1364.4,
+    "am_cost": 1139.52,
     "am_feasible": true,
-    "am_gap_pct": 49.2
+    "am_gap_pct": 24.61
   },
   {
     "n": 50,
@@ -1355,9 +1355,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1169.87,
+    "am_cost": 1212.52,
     "am_feasible": true,
-    "am_gap_pct": 45.97
+    "am_gap_pct": 51.29
   },
   {
     "n": 50,
@@ -1371,9 +1371,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1117.91,
+    "am_cost": 1028.54,
     "am_feasible": true,
-    "am_gap_pct": 31.66
+    "am_gap_pct": 21.14
   },
   {
     "n": 50,
@@ -1387,9 +1387,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1081.61,
+    "am_cost": 1098.03,
     "am_feasible": true,
-    "am_gap_pct": 22.27
+    "am_gap_pct": 24.13
   },
   {
     "n": 50,
@@ -1403,9 +1403,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1272.75,
+    "am_cost": 1287.55,
     "am_feasible": true,
-    "am_gap_pct": 31.44
+    "am_gap_pct": 32.97
   },
   {
     "n": 50,
@@ -1419,9 +1419,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1196.16,
+    "am_cost": 1221.06,
     "am_feasible": true,
-    "am_gap_pct": 33.04
+    "am_gap_pct": 35.81
   },
   {
     "n": 50,
@@ -1435,9 +1435,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1288.47,
+    "am_cost": 1214.03,
     "am_feasible": true,
-    "am_gap_pct": 32.53
+    "am_gap_pct": 24.88
   },
   {
     "n": 100,
@@ -1451,9 +1451,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 2026.86,
+    "am_cost": 1960.48,
     "am_feasible": true,
-    "am_gap_pct": 41.17
+    "am_gap_pct": 36.54
   },
   {
     "n": 100,
@@ -1467,9 +1467,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1921.74,
+    "am_cost": 1719.8,
     "am_feasible": true,
-    "am_gap_pct": 39.85
+    "am_gap_pct": 25.15
   },
   {
     "n": 100,
@@ -1483,9 +1483,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1956.63,
+    "am_cost": 1959.77,
     "am_feasible": true,
-    "am_gap_pct": 25.12
+    "am_gap_pct": 25.32
   },
   {
     "n": 100,
@@ -1499,9 +1499,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1879.6,
+    "am_cost": 1733.32,
     "am_feasible": true,
-    "am_gap_pct": 36.63
+    "am_gap_pct": 26.0
   },
   {
     "n": 100,
@@ -1515,9 +1515,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1887.15,
+    "am_cost": 1901.64,
     "am_feasible": true,
-    "am_gap_pct": 31.41
+    "am_gap_pct": 32.42
   },
   {
     "n": 100,
@@ -1531,9 +1531,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1992.59,
+    "am_cost": 1894.43,
     "am_feasible": true,
-    "am_gap_pct": 37.42
+    "am_gap_pct": 30.65
   },
   {
     "n": 100,
@@ -1547,9 +1547,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 2046.29,
+    "am_cost": 1938.73,
     "am_feasible": true,
-    "am_gap_pct": 38.49
+    "am_gap_pct": 31.21
   },
   {
     "n": 100,
@@ -1563,9 +1563,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1948.2,
+    "am_cost": 1940.2,
     "am_feasible": true,
-    "am_gap_pct": 35.56
+    "am_gap_pct": 35.0
   },
   {
     "n": 100,
@@ -1579,9 +1579,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1939.15,
+    "am_cost": 1855.2,
     "am_feasible": true,
-    "am_gap_pct": 36.92
+    "am_gap_pct": 30.99
   },
   {
     "n": 100,
@@ -1595,9 +1595,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1925.15,
+    "am_cost": 1717.07,
     "am_feasible": true,
-    "am_gap_pct": 41.57
+    "am_gap_pct": 26.27
   },
   {
     "n": 100,
@@ -1611,9 +1611,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1912.85,
+    "am_cost": 1763.55,
     "am_feasible": true,
-    "am_gap_pct": 38.42
+    "am_gap_pct": 27.62
   },
   {
     "n": 100,
@@ -1627,9 +1627,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1850.41,
+    "am_cost": 1675.26,
     "am_feasible": true,
-    "am_gap_pct": 33.03
+    "am_gap_pct": 20.44
   },
   {
     "n": 100,
@@ -1643,9 +1643,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1932.85,
+    "am_cost": 2006.5,
     "am_feasible": true,
-    "am_gap_pct": 33.59
+    "am_gap_pct": 38.68
   },
   {
     "n": 100,
@@ -1659,9 +1659,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1930.63,
+    "am_cost": 1905.74,
     "am_feasible": true,
-    "am_gap_pct": 33.07
+    "am_gap_pct": 31.35
   },
   {
     "n": 100,
@@ -1675,9 +1675,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 2122.87,
+    "am_cost": 1917.7,
     "am_feasible": true,
-    "am_gap_pct": 48.49
+    "am_gap_pct": 34.14
   },
   {
     "n": 100,
@@ -1691,9 +1691,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1797.72,
+    "am_cost": 1812.87,
     "am_feasible": true,
-    "am_gap_pct": 38.78
+    "am_gap_pct": 39.95
   },
   {
     "n": 100,
@@ -1707,9 +1707,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1872.5,
+    "am_cost": 1884.5,
     "am_feasible": true,
-    "am_gap_pct": 32.95
+    "am_gap_pct": 33.8
   },
   {
     "n": 100,
@@ -1723,9 +1723,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1731.52,
+    "am_cost": 1833.79,
     "am_feasible": true,
-    "am_gap_pct": 27.92
+    "am_gap_pct": 35.48
   },
   {
     "n": 100,
@@ -1739,9 +1739,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 2014.27,
+    "am_cost": 1868.69,
     "am_feasible": true,
-    "am_gap_pct": 35.37
+    "am_gap_pct": 25.58
   },
   {
     "n": 100,
@@ -1755,9 +1755,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1729.54,
+    "am_cost": 1696.56,
     "am_feasible": true,
-    "am_gap_pct": 29.01
+    "am_gap_pct": 26.55
   },
   {
     "n": 100,
@@ -1771,9 +1771,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1838.53,
+    "am_cost": 1890.38,
     "am_feasible": true,
-    "am_gap_pct": 29.36
+    "am_gap_pct": 33.01
   },
   {
     "n": 100,
@@ -1787,9 +1787,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1968.95,
+    "am_cost": 1813.02,
     "am_feasible": true,
-    "am_gap_pct": 33.71
+    "am_gap_pct": 23.12
   },
   {
     "n": 100,
@@ -1803,9 +1803,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1888.44,
+    "am_cost": 1746.92,
     "am_feasible": true,
-    "am_gap_pct": 33.16
+    "am_gap_pct": 23.18
   },
   {
     "n": 100,
@@ -1819,9 +1819,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1867.23,
+    "am_cost": 1711.4,
     "am_feasible": true,
-    "am_gap_pct": 38.42
+    "am_gap_pct": 26.87
   },
   {
     "n": 100,
@@ -1835,9 +1835,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1901.09,
+    "am_cost": 1959.28,
     "am_feasible": true,
-    "am_gap_pct": 35.72
+    "am_gap_pct": 39.88
   },
   {
     "n": 100,
@@ -1851,9 +1851,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1885.45,
+    "am_cost": 1943.7,
     "am_feasible": true,
-    "am_gap_pct": 29.63
+    "am_gap_pct": 33.64
   },
   {
     "n": 100,
@@ -1867,9 +1867,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1727.81,
+    "am_cost": 1894.41,
     "am_feasible": true,
-    "am_gap_pct": 22.3
+    "am_gap_pct": 34.09
   },
   {
     "n": 100,
@@ -1883,9 +1883,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1989.77,
+    "am_cost": 1956.36,
     "am_feasible": true,
-    "am_gap_pct": 30.6
+    "am_gap_pct": 28.41
   },
   {
     "n": 100,
@@ -1899,9 +1899,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1966.48,
+    "am_cost": 1858.02,
     "am_feasible": true,
-    "am_gap_pct": 35.91
+    "am_gap_pct": 28.41
   },
   {
     "n": 100,
@@ -1915,9 +1915,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 1920.35,
+    "am_cost": 1947.74,
     "am_feasible": true,
-    "am_gap_pct": 37.18
+    "am_gap_pct": 39.14
   },
   {
     "n": 200,
@@ -1931,9 +1931,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3149.24,
+    "am_cost": 3062.32,
     "am_feasible": true,
-    "am_gap_pct": 33.76
+    "am_gap_pct": 30.07
   },
   {
     "n": 200,
@@ -1947,9 +1947,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3374.54,
+    "am_cost": 3124.87,
     "am_feasible": true,
-    "am_gap_pct": 43.22
+    "am_gap_pct": 32.62
   },
   {
     "n": 200,
@@ -1963,9 +1963,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 2957.57,
+    "am_cost": 2990.83,
     "am_feasible": true,
-    "am_gap_pct": 27.31
+    "am_gap_pct": 28.74
   },
   {
     "n": 200,
@@ -1979,9 +1979,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3411.2,
+    "am_cost": 3161.65,
     "am_feasible": true,
-    "am_gap_pct": 47.34
+    "am_gap_pct": 36.56
   },
   {
     "n": 200,
@@ -1995,9 +1995,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3255.32,
+    "am_cost": 3107.06,
     "am_feasible": true,
-    "am_gap_pct": 44.63
+    "am_gap_pct": 38.04
   },
   {
     "n": 200,
@@ -2011,9 +2011,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3164.69,
+    "am_cost": 2944.55,
     "am_feasible": true,
-    "am_gap_pct": 33.87
+    "am_gap_pct": 24.56
   },
   {
     "n": 200,
@@ -2027,9 +2027,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3203.33,
+    "am_cost": 2962.91,
     "am_feasible": true,
-    "am_gap_pct": 39.49
+    "am_gap_pct": 29.02
   },
   {
     "n": 200,
@@ -2043,9 +2043,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3256.76,
+    "am_cost": 3047.09,
     "am_feasible": true,
-    "am_gap_pct": 34.76
+    "am_gap_pct": 26.08
   },
   {
     "n": 200,
@@ -2059,9 +2059,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3117.08,
+    "am_cost": 2973.68,
     "am_feasible": true,
-    "am_gap_pct": 32.77
+    "am_gap_pct": 26.66
   },
   {
     "n": 200,
@@ -2075,9 +2075,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3173.49,
+    "am_cost": 2822.77,
     "am_feasible": true,
-    "am_gap_pct": 41.0
+    "am_gap_pct": 25.41
   },
   {
     "n": 200,
@@ -2091,9 +2091,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3118.08,
+    "am_cost": 3119.08,
     "am_feasible": true,
-    "am_gap_pct": 34.68
+    "am_gap_pct": 34.72
   },
   {
     "n": 200,
@@ -2107,9 +2107,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3374.5,
+    "am_cost": 2921.12,
     "am_feasible": true,
-    "am_gap_pct": 44.87
+    "am_gap_pct": 25.4
   },
   {
     "n": 200,
@@ -2123,9 +2123,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3258.51,
+    "am_cost": 3048.81,
     "am_feasible": true,
-    "am_gap_pct": 34.04
+    "am_gap_pct": 25.41
   },
   {
     "n": 200,
@@ -2139,9 +2139,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3229.99,
+    "am_cost": 2963.0,
     "am_feasible": true,
-    "am_gap_pct": 38.37
+    "am_gap_pct": 26.93
   },
   {
     "n": 200,
@@ -2155,9 +2155,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3104.76,
+    "am_cost": 3063.68,
     "am_feasible": true,
-    "am_gap_pct": 32.64
+    "am_gap_pct": 30.88
   },
   {
     "n": 200,
@@ -2171,9 +2171,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3223.75,
+    "am_cost": 2977.95,
     "am_feasible": true,
-    "am_gap_pct": 39.83
+    "am_gap_pct": 29.17
   },
   {
     "n": 200,
@@ -2187,9 +2187,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3097.84,
+    "am_cost": 2963.09,
     "am_feasible": true,
-    "am_gap_pct": 31.12
+    "am_gap_pct": 25.42
   },
   {
     "n": 200,
@@ -2203,9 +2203,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3330.71,
+    "am_cost": 3195.83,
     "am_feasible": true,
-    "am_gap_pct": 38.73
+    "am_gap_pct": 33.11
   },
   {
     "n": 200,
@@ -2219,9 +2219,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3181.32,
+    "am_cost": 3215.1,
     "am_feasible": true,
-    "am_gap_pct": 36.25
+    "am_gap_pct": 37.7
   },
   {
     "n": 200,
@@ -2235,9 +2235,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3121.98,
+    "am_cost": 3048.49,
     "am_feasible": true,
-    "am_gap_pct": 40.1
+    "am_gap_pct": 36.8
   },
   {
     "n": 200,
@@ -2251,9 +2251,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3288.97,
+    "am_cost": 2919.66,
     "am_feasible": true,
-    "am_gap_pct": 39.34
+    "am_gap_pct": 23.7
   },
   {
     "n": 200,
@@ -2267,9 +2267,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3099.28,
+    "am_cost": 2884.99,
     "am_feasible": true,
-    "am_gap_pct": 34.56
+    "am_gap_pct": 25.26
   },
   {
     "n": 200,
@@ -2283,9 +2283,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3305.04,
+    "am_cost": 2983.28,
     "am_feasible": true,
-    "am_gap_pct": 37.76
+    "am_gap_pct": 24.35
   },
   {
     "n": 200,
@@ -2299,9 +2299,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3275.85,
+    "am_cost": 3081.84,
     "am_feasible": true,
-    "am_gap_pct": 38.1
+    "am_gap_pct": 29.92
   },
   {
     "n": 200,
@@ -2315,9 +2315,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3127.99,
+    "am_cost": 3172.14,
     "am_feasible": true,
-    "am_gap_pct": 37.68
+    "am_gap_pct": 39.62
   },
   {
     "n": 200,
@@ -2331,9 +2331,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3253.29,
+    "am_cost": 2950.62,
     "am_feasible": true,
-    "am_gap_pct": 40.79
+    "am_gap_pct": 27.69
   },
   {
     "n": 200,
@@ -2347,9 +2347,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3286.98,
+    "am_cost": 3056.77,
     "am_feasible": true,
-    "am_gap_pct": 42.06
+    "am_gap_pct": 32.11
   },
   {
     "n": 200,
@@ -2363,9 +2363,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3469.9,
+    "am_cost": 2981.47,
     "am_feasible": true,
-    "am_gap_pct": 44.53
+    "am_gap_pct": 24.18
   },
   {
     "n": 200,
@@ -2379,9 +2379,9 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3141.42,
+    "am_cost": 3108.79,
     "am_feasible": true,
-    "am_gap_pct": 35.22
+    "am_gap_pct": 33.81
   },
   {
     "n": 200,
@@ -2395,8 +2395,8 @@
     "genetic_gap_pct": null,
     "sa_cost": null,
     "sa_gap_pct": null,
-    "am_cost": 3102.49,
+    "am_cost": 3131.14,
     "am_feasible": true,
-    "am_gap_pct": 29.03
+    "am_gap_pct": 30.22
   }
 ]
