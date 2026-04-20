@@ -1,0 +1,1052 @@
+{
+  "n10_seed0": {
+    "n": 10,
+    "seed": 0,
+    "feasible": true,
+    "cost": 554.0517454306355,
+    "n_clients_servis": 10
+  },
+  "n10_seed1": {
+    "n": 10,
+    "seed": 1,
+    "feasible": true,
+    "cost": 478.6550733476613,
+    "n_clients_servis": 10
+  },
+  "n10_seed2": {
+    "n": 10,
+    "seed": 2,
+    "feasible": true,
+    "cost": 458.86080734289874,
+    "n_clients_servis": 10
+  },
+  "n10_seed3": {
+    "n": 10,
+    "seed": 3,
+    "feasible": true,
+    "cost": 443.6283069874363,
+    "n_clients_servis": 10
+  },
+  "n10_seed4": {
+    "n": 10,
+    "seed": 4,
+    "feasible": true,
+    "cost": 447.20826048197733,
+    "n_clients_servis": 10
+  },
+  "n10_seed5": {
+    "n": 10,
+    "seed": 5,
+    "feasible": true,
+    "cost": 471.4981735003139,
+    "n_clients_servis": 10
+  },
+  "n10_seed6": {
+    "n": 10,
+    "seed": 6,
+    "feasible": true,
+    "cost": 583.2052598527251,
+    "n_clients_servis": 10
+  },
+  "n10_seed7": {
+    "n": 10,
+    "seed": 7,
+    "feasible": true,
+    "cost": 576.7088970144946,
+    "n_clients_servis": 10
+  },
+  "n10_seed8": {
+    "n": 10,
+    "seed": 8,
+    "feasible": true,
+    "cost": 492.29010604899565,
+    "n_clients_servis": 10
+  },
+  "n10_seed9": {
+    "n": 10,
+    "seed": 9,
+    "feasible": true,
+    "cost": 517.332681961894,
+    "n_clients_servis": 10
+  },
+  "n10_seed10": {
+    "n": 10,
+    "seed": 10,
+    "feasible": true,
+    "cost": 440.13971269414964,
+    "n_clients_servis": 10
+  },
+  "n10_seed11": {
+    "n": 10,
+    "seed": 11,
+    "feasible": true,
+    "cost": 517.8979620176782,
+    "n_clients_servis": 10
+  },
+  "n10_seed12": {
+    "n": 10,
+    "seed": 12,
+    "feasible": true,
+    "cost": 479.9875358009566,
+    "n_clients_servis": 10
+  },
+  "n10_seed13": {
+    "n": 10,
+    "seed": 13,
+    "feasible": true,
+    "cost": 576.4611239280756,
+    "n_clients_servis": 10
+  },
+  "n10_seed14": {
+    "n": 10,
+    "seed": 14,
+    "feasible": true,
+    "cost": 370.7550751668658,
+    "n_clients_servis": 10
+  },
+  "n10_seed15": {
+    "n": 10,
+    "seed": 15,
+    "feasible": true,
+    "cost": 455.6048111036907,
+    "n_clients_servis": 10
+  },
+  "n10_seed16": {
+    "n": 10,
+    "seed": 16,
+    "feasible": true,
+    "cost": 599.0557306467072,
+    "n_clients_servis": 10
+  },
+  "n10_seed17": {
+    "n": 10,
+    "seed": 17,
+    "feasible": true,
+    "cost": 470.22313827258694,
+    "n_clients_servis": 10
+  },
+  "n10_seed18": {
+    "n": 10,
+    "seed": 18,
+    "feasible": true,
+    "cost": 509.9117282496347,
+    "n_clients_servis": 10
+  },
+  "n10_seed19": {
+    "n": 10,
+    "seed": 19,
+    "feasible": true,
+    "cost": 393.41752769225644,
+    "n_clients_servis": 10
+  },
+  "n10_seed20": {
+    "n": 10,
+    "seed": 20,
+    "feasible": true,
+    "cost": 509.34126403586396,
+    "n_clients_servis": 10
+  },
+  "n10_seed21": {
+    "n": 10,
+    "seed": 21,
+    "feasible": true,
+    "cost": 506.08710531296475,
+    "n_clients_servis": 10
+  },
+  "n10_seed22": {
+    "n": 10,
+    "seed": 22,
+    "feasible": true,
+    "cost": 544.1319488364027,
+    "n_clients_servis": 10
+  },
+  "n10_seed23": {
+    "n": 10,
+    "seed": 23,
+    "feasible": true,
+    "cost": 324.32435982324137,
+    "n_clients_servis": 10
+  },
+  "n10_seed24": {
+    "n": 10,
+    "seed": 24,
+    "feasible": true,
+    "cost": 434.45951548866896,
+    "n_clients_servis": 10
+  },
+  "n10_seed25": {
+    "n": 10,
+    "seed": 25,
+    "feasible": true,
+    "cost": 459.0408036744718,
+    "n_clients_servis": 10
+  },
+  "n10_seed26": {
+    "n": 10,
+    "seed": 26,
+    "feasible": true,
+    "cost": 352.77673518523034,
+    "n_clients_servis": 10
+  },
+  "n10_seed27": {
+    "n": 10,
+    "seed": 27,
+    "feasible": true,
+    "cost": 488.560914790469,
+    "n_clients_servis": 10
+  },
+  "n10_seed28": {
+    "n": 10,
+    "seed": 28,
+    "feasible": true,
+    "cost": 519.4962127066182,
+    "n_clients_servis": 10
+  },
+  "n10_seed29": {
+    "n": 10,
+    "seed": 29,
+    "feasible": true,
+    "cost": 591.9315176029298,
+    "n_clients_servis": 10
+  },
+  "n20_seed0": {
+    "n": 20,
+    "seed": 0,
+    "feasible": true,
+    "cost": 782.48483283241,
+    "n_clients_servis": 20
+  },
+  "n20_seed1": {
+    "n": 20,
+    "seed": 1,
+    "feasible": true,
+    "cost": 788.6380031964894,
+    "n_clients_servis": 20
+  },
+  "n20_seed2": {
+    "n": 20,
+    "seed": 2,
+    "feasible": true,
+    "cost": 638.5570350584275,
+    "n_clients_servis": 20
+  },
+  "n20_seed3": {
+    "n": 20,
+    "seed": 3,
+    "feasible": true,
+    "cost": 728.7664186536147,
+    "n_clients_servis": 20
+  },
+  "n20_seed4": {
+    "n": 20,
+    "seed": 4,
+    "feasible": true,
+    "cost": 640.3097982694361,
+    "n_clients_servis": 20
+  },
+  "n20_seed5": {
+    "n": 20,
+    "seed": 5,
+    "feasible": true,
+    "cost": 613.4180932902333,
+    "n_clients_servis": 20
+  },
+  "n20_seed6": {
+    "n": 20,
+    "seed": 6,
+    "feasible": true,
+    "cost": 781.5352782033295,
+    "n_clients_servis": 20
+  },
+  "n20_seed7": {
+    "n": 20,
+    "seed": 7,
+    "feasible": true,
+    "cost": 679.5067440962702,
+    "n_clients_servis": 20
+  },
+  "n20_seed8": {
+    "n": 20,
+    "seed": 8,
+    "feasible": true,
+    "cost": 558.7685197310891,
+    "n_clients_servis": 20
+  },
+  "n20_seed9": {
+    "n": 20,
+    "seed": 9,
+    "feasible": true,
+    "cost": 804.7886325796783,
+    "n_clients_servis": 20
+  },
+  "n20_seed10": {
+    "n": 20,
+    "seed": 10,
+    "feasible": true,
+    "cost": 682.1734854191477,
+    "n_clients_servis": 20
+  },
+  "n20_seed11": {
+    "n": 20,
+    "seed": 11,
+    "feasible": true,
+    "cost": 674.5685119424706,
+    "n_clients_servis": 20
+  },
+  "n20_seed12": {
+    "n": 20,
+    "seed": 12,
+    "feasible": true,
+    "cost": 773.8748112894762,
+    "n_clients_servis": 20
+  },
+  "n20_seed13": {
+    "n": 20,
+    "seed": 13,
+    "feasible": true,
+    "cost": 743.6183006173039,
+    "n_clients_servis": 20
+  },
+  "n20_seed14": {
+    "n": 20,
+    "seed": 14,
+    "feasible": true,
+    "cost": 607.5394733035777,
+    "n_clients_servis": 20
+  },
+  "n20_seed15": {
+    "n": 20,
+    "seed": 15,
+    "feasible": true,
+    "cost": 535.1843114353815,
+    "n_clients_servis": 20
+  },
+  "n20_seed16": {
+    "n": 20,
+    "seed": 16,
+    "feasible": true,
+    "cost": 621.6612647845994,
+    "n_clients_servis": 20
+  },
+  "n20_seed17": {
+    "n": 20,
+    "seed": 17,
+    "feasible": true,
+    "cost": 669.5022220308024,
+    "n_clients_servis": 20
+  },
+  "n20_seed18": {
+    "n": 20,
+    "seed": 18,
+    "feasible": true,
+    "cost": 860.6132816793695,
+    "n_clients_servis": 20
+  },
+  "n20_seed19": {
+    "n": 20,
+    "seed": 19,
+    "feasible": true,
+    "cost": 611.3160294715984,
+    "n_clients_servis": 20
+  },
+  "n20_seed20": {
+    "n": 20,
+    "seed": 20,
+    "feasible": true,
+    "cost": 702.1811292946163,
+    "n_clients_servis": 20
+  },
+  "n20_seed21": {
+    "n": 20,
+    "seed": 21,
+    "feasible": true,
+    "cost": 612.7581547659738,
+    "n_clients_servis": 20
+  },
+  "n20_seed22": {
+    "n": 20,
+    "seed": 22,
+    "feasible": true,
+    "cost": 715.5733308339279,
+    "n_clients_servis": 20
+  },
+  "n20_seed23": {
+    "n": 20,
+    "seed": 23,
+    "feasible": true,
+    "cost": 588.3845699748701,
+    "n_clients_servis": 20
+  },
+  "n20_seed24": {
+    "n": 20,
+    "seed": 24,
+    "feasible": true,
+    "cost": 736.9001472701707,
+    "n_clients_servis": 20
+  },
+  "n20_seed25": {
+    "n": 20,
+    "seed": 25,
+    "feasible": true,
+    "cost": 721.519223936686,
+    "n_clients_servis": 20
+  },
+  "n20_seed26": {
+    "n": 20,
+    "seed": 26,
+    "feasible": true,
+    "cost": 557.5189439367775,
+    "n_clients_servis": 20
+  },
+  "n20_seed27": {
+    "n": 20,
+    "seed": 27,
+    "feasible": true,
+    "cost": 710.698630386239,
+    "n_clients_servis": 20
+  },
+  "n20_seed28": {
+    "n": 20,
+    "seed": 28,
+    "feasible": true,
+    "cost": 733.0672966922033,
+    "n_clients_servis": 20
+  },
+  "n20_seed29": {
+    "n": 20,
+    "seed": 29,
+    "feasible": true,
+    "cost": 729.335032460877,
+    "n_clients_servis": 20
+  },
+  "n50_seed0": {
+    "n": 50,
+    "seed": 0,
+    "feasible": true,
+    "cost": 1199.1551956831672,
+    "n_clients_servis": 50
+  },
+  "n50_seed1": {
+    "n": 50,
+    "seed": 1,
+    "feasible": true,
+    "cost": 990.6174298051571,
+    "n_clients_servis": 50
+  },
+  "n50_seed2": {
+    "n": 50,
+    "seed": 2,
+    "feasible": true,
+    "cost": 1192.3045731452598,
+    "n_clients_servis": 50
+  },
+  "n50_seed3": {
+    "n": 50,
+    "seed": 3,
+    "feasible": true,
+    "cost": 1289.1859350148518,
+    "n_clients_servis": 50
+  },
+  "n50_seed4": {
+    "n": 50,
+    "seed": 4,
+    "feasible": true,
+    "cost": 1309.7166448723774,
+    "n_clients_servis": 50
+  },
+  "n50_seed5": {
+    "n": 50,
+    "seed": 5,
+    "feasible": true,
+    "cost": 1288.2947276950997,
+    "n_clients_servis": 50
+  },
+  "n50_seed6": {
+    "n": 50,
+    "seed": 6,
+    "feasible": true,
+    "cost": 1175.595218058231,
+    "n_clients_servis": 50
+  },
+  "n50_seed7": {
+    "n": 50,
+    "seed": 7,
+    "feasible": true,
+    "cost": 1237.764384659475,
+    "n_clients_servis": 50
+  },
+  "n50_seed8": {
+    "n": 50,
+    "seed": 8,
+    "feasible": true,
+    "cost": 1121.9837621411702,
+    "n_clients_servis": 50
+  },
+  "n50_seed9": {
+    "n": 50,
+    "seed": 9,
+    "feasible": true,
+    "cost": 1217.4797065588393,
+    "n_clients_servis": 50
+  },
+  "n50_seed10": {
+    "n": 50,
+    "seed": 10,
+    "feasible": true,
+    "cost": 1131.4771556844473,
+    "n_clients_servis": 50
+  },
+  "n50_seed11": {
+    "n": 50,
+    "seed": 11,
+    "feasible": true,
+    "cost": 1345.3637520723316,
+    "n_clients_servis": 50
+  },
+  "n50_seed12": {
+    "n": 50,
+    "seed": 12,
+    "feasible": true,
+    "cost": 1084.6582152373114,
+    "n_clients_servis": 50
+  },
+  "n50_seed13": {
+    "n": 50,
+    "seed": 13,
+    "feasible": true,
+    "cost": 1215.6266435888826,
+    "n_clients_servis": 50
+  },
+  "n50_seed14": {
+    "n": 50,
+    "seed": 14,
+    "feasible": true,
+    "cost": 1186.2615204150927,
+    "n_clients_servis": 50
+  },
+  "n50_seed15": {
+    "n": 50,
+    "seed": 15,
+    "feasible": true,
+    "cost": 1229.0942598243323,
+    "n_clients_servis": 50
+  },
+  "n50_seed16": {
+    "n": 50,
+    "seed": 16,
+    "feasible": true,
+    "cost": 1191.0773870300236,
+    "n_clients_servis": 50
+  },
+  "n50_seed17": {
+    "n": 50,
+    "seed": 17,
+    "feasible": true,
+    "cost": 1193.3932300999295,
+    "n_clients_servis": 50
+  },
+  "n50_seed18": {
+    "n": 50,
+    "seed": 18,
+    "feasible": true,
+    "cost": 1119.982109817128,
+    "n_clients_servis": 50
+  },
+  "n50_seed19": {
+    "n": 50,
+    "seed": 19,
+    "feasible": true,
+    "cost": 1173.9847367472607,
+    "n_clients_servis": 50
+  },
+  "n50_seed20": {
+    "n": 50,
+    "seed": 20,
+    "feasible": true,
+    "cost": 1217.1329820976894,
+    "n_clients_servis": 50
+  },
+  "n50_seed21": {
+    "n": 50,
+    "seed": 21,
+    "feasible": true,
+    "cost": 1212.7316810395814,
+    "n_clients_servis": 50
+  },
+  "n50_seed22": {
+    "n": 50,
+    "seed": 22,
+    "feasible": true,
+    "cost": 1314.4714092834308,
+    "n_clients_servis": 50
+  },
+  "n50_seed23": {
+    "n": 50,
+    "seed": 23,
+    "feasible": true,
+    "cost": 1364.4029711703097,
+    "n_clients_servis": 50
+  },
+  "n50_seed24": {
+    "n": 50,
+    "seed": 24,
+    "feasible": true,
+    "cost": 1169.8659639171847,
+    "n_clients_servis": 50
+  },
+  "n50_seed25": {
+    "n": 50,
+    "seed": 25,
+    "feasible": true,
+    "cost": 1117.9075401267778,
+    "n_clients_servis": 50
+  },
+  "n50_seed26": {
+    "n": 50,
+    "seed": 26,
+    "feasible": true,
+    "cost": 1081.6052621741624,
+    "n_clients_servis": 50
+  },
+  "n50_seed27": {
+    "n": 50,
+    "seed": 27,
+    "feasible": true,
+    "cost": 1272.7450923468389,
+    "n_clients_servis": 50
+  },
+  "n50_seed28": {
+    "n": 50,
+    "seed": 28,
+    "feasible": true,
+    "cost": 1196.1623311350836,
+    "n_clients_servis": 50
+  },
+  "n50_seed29": {
+    "n": 50,
+    "seed": 29,
+    "feasible": true,
+    "cost": 1288.470968425438,
+    "n_clients_servis": 50
+  },
+  "n100_seed0": {
+    "n": 100,
+    "seed": 0,
+    "feasible": true,
+    "cost": 2026.8616386799183,
+    "n_clients_servis": 100
+  },
+  "n100_seed1": {
+    "n": 100,
+    "seed": 1,
+    "feasible": true,
+    "cost": 1921.7383683537826,
+    "n_clients_servis": 100
+  },
+  "n100_seed2": {
+    "n": 100,
+    "seed": 2,
+    "feasible": true,
+    "cost": 1956.6295615803172,
+    "n_clients_servis": 100
+  },
+  "n100_seed3": {
+    "n": 100,
+    "seed": 3,
+    "feasible": true,
+    "cost": 1879.5969407298605,
+    "n_clients_servis": 100
+  },
+  "n100_seed4": {
+    "n": 100,
+    "seed": 4,
+    "feasible": true,
+    "cost": 1887.1513353245862,
+    "n_clients_servis": 100
+  },
+  "n100_seed5": {
+    "n": 100,
+    "seed": 5,
+    "feasible": true,
+    "cost": 1992.5877966989651,
+    "n_clients_servis": 100
+  },
+  "n100_seed6": {
+    "n": 100,
+    "seed": 6,
+    "feasible": true,
+    "cost": 2046.2942280074824,
+    "n_clients_servis": 100
+  },
+  "n100_seed7": {
+    "n": 100,
+    "seed": 7,
+    "feasible": true,
+    "cost": 1948.2047094781146,
+    "n_clients_servis": 100
+  },
+  "n100_seed8": {
+    "n": 100,
+    "seed": 8,
+    "feasible": true,
+    "cost": 1939.148742401906,
+    "n_clients_servis": 100
+  },
+  "n100_seed9": {
+    "n": 100,
+    "seed": 9,
+    "feasible": true,
+    "cost": 1925.145444110829,
+    "n_clients_servis": 100
+  },
+  "n100_seed10": {
+    "n": 100,
+    "seed": 10,
+    "feasible": true,
+    "cost": 1912.8500546386963,
+    "n_clients_servis": 100
+  },
+  "n100_seed11": {
+    "n": 100,
+    "seed": 11,
+    "feasible": true,
+    "cost": 1850.4066218307746,
+    "n_clients_servis": 100
+  },
+  "n100_seed12": {
+    "n": 100,
+    "seed": 12,
+    "feasible": true,
+    "cost": 1932.8503136137117,
+    "n_clients_servis": 100
+  },
+  "n100_seed13": {
+    "n": 100,
+    "seed": 13,
+    "feasible": true,
+    "cost": 1930.6275791726146,
+    "n_clients_servis": 100
+  },
+  "n100_seed14": {
+    "n": 100,
+    "seed": 14,
+    "feasible": true,
+    "cost": 2122.870038610527,
+    "n_clients_servis": 100
+  },
+  "n100_seed15": {
+    "n": 100,
+    "seed": 15,
+    "feasible": true,
+    "cost": 1797.71574614076,
+    "n_clients_servis": 100
+  },
+  "n100_seed16": {
+    "n": 100,
+    "seed": 16,
+    "feasible": true,
+    "cost": 1872.4987006270462,
+    "n_clients_servis": 100
+  },
+  "n100_seed17": {
+    "n": 100,
+    "seed": 17,
+    "feasible": true,
+    "cost": 1731.5222039411142,
+    "n_clients_servis": 100
+  },
+  "n100_seed18": {
+    "n": 100,
+    "seed": 18,
+    "feasible": true,
+    "cost": 2014.265560293142,
+    "n_clients_servis": 100
+  },
+  "n100_seed19": {
+    "n": 100,
+    "seed": 19,
+    "feasible": true,
+    "cost": 1729.5429771989016,
+    "n_clients_servis": 100
+  },
+  "n100_seed20": {
+    "n": 100,
+    "seed": 20,
+    "feasible": true,
+    "cost": 1838.527552127659,
+    "n_clients_servis": 100
+  },
+  "n100_seed21": {
+    "n": 100,
+    "seed": 21,
+    "feasible": true,
+    "cost": 1968.9457359617643,
+    "n_clients_servis": 100
+  },
+  "n100_seed22": {
+    "n": 100,
+    "seed": 22,
+    "feasible": true,
+    "cost": 1888.4443370081735,
+    "n_clients_servis": 100
+  },
+  "n100_seed23": {
+    "n": 100,
+    "seed": 23,
+    "feasible": true,
+    "cost": 1867.2301191147956,
+    "n_clients_servis": 100
+  },
+  "n100_seed24": {
+    "n": 100,
+    "seed": 24,
+    "feasible": true,
+    "cost": 1901.0883846363683,
+    "n_clients_servis": 100
+  },
+  "n100_seed25": {
+    "n": 100,
+    "seed": 25,
+    "feasible": true,
+    "cost": 1885.4492723472108,
+    "n_clients_servis": 100
+  },
+  "n100_seed26": {
+    "n": 100,
+    "seed": 26,
+    "feasible": true,
+    "cost": 1727.8050572983104,
+    "n_clients_servis": 100
+  },
+  "n100_seed27": {
+    "n": 100,
+    "seed": 27,
+    "feasible": true,
+    "cost": 1989.7736663614319,
+    "n_clients_servis": 100
+  },
+  "n100_seed28": {
+    "n": 100,
+    "seed": 28,
+    "feasible": true,
+    "cost": 1966.4754612471913,
+    "n_clients_servis": 100
+  },
+  "n100_seed29": {
+    "n": 100,
+    "seed": 29,
+    "feasible": true,
+    "cost": 1920.3507540611874,
+    "n_clients_servis": 100
+  },
+  "n200_seed0": {
+    "n": 200,
+    "seed": 0,
+    "feasible": true,
+    "cost": 3149.243849697401,
+    "n_clients_servis": 200
+  },
+  "n200_seed1": {
+    "n": 200,
+    "seed": 1,
+    "feasible": true,
+    "cost": 3374.5441772163304,
+    "n_clients_servis": 200
+  },
+  "n200_seed2": {
+    "n": 200,
+    "seed": 2,
+    "feasible": true,
+    "cost": 2957.574960200279,
+    "n_clients_servis": 200
+  },
+  "n200_seed3": {
+    "n": 200,
+    "seed": 3,
+    "feasible": true,
+    "cost": 3411.197507241169,
+    "n_clients_servis": 200
+  },
+  "n200_seed4": {
+    "n": 200,
+    "seed": 4,
+    "feasible": true,
+    "cost": 3255.3188997581374,
+    "n_clients_servis": 200
+  },
+  "n200_seed5": {
+    "n": 200,
+    "seed": 5,
+    "feasible": true,
+    "cost": 3164.6899920129495,
+    "n_clients_servis": 200
+  },
+  "n200_seed6": {
+    "n": 200,
+    "seed": 6,
+    "feasible": true,
+    "cost": 3203.3285632589423,
+    "n_clients_servis": 200
+  },
+  "n200_seed7": {
+    "n": 200,
+    "seed": 7,
+    "feasible": true,
+    "cost": 3256.759983996345,
+    "n_clients_servis": 200
+  },
+  "n200_seed8": {
+    "n": 200,
+    "seed": 8,
+    "feasible": true,
+    "cost": 3117.07867230896,
+    "n_clients_servis": 200
+  },
+  "n200_seed9": {
+    "n": 200,
+    "seed": 9,
+    "feasible": true,
+    "cost": 3173.4861640423605,
+    "n_clients_servis": 200
+  },
+  "n200_seed10": {
+    "n": 200,
+    "seed": 10,
+    "feasible": true,
+    "cost": 3118.0816467915765,
+    "n_clients_servis": 200
+  },
+  "n200_seed11": {
+    "n": 200,
+    "seed": 11,
+    "feasible": true,
+    "cost": 3374.503955919661,
+    "n_clients_servis": 200
+  },
+  "n200_seed12": {
+    "n": 200,
+    "seed": 12,
+    "feasible": true,
+    "cost": 3258.5083844256274,
+    "n_clients_servis": 200
+  },
+  "n200_seed13": {
+    "n": 200,
+    "seed": 13,
+    "feasible": true,
+    "cost": 3229.990184952384,
+    "n_clients_servis": 200
+  },
+  "n200_seed14": {
+    "n": 200,
+    "seed": 14,
+    "feasible": true,
+    "cost": 3104.758766425182,
+    "n_clients_servis": 200
+  },
+  "n200_seed15": {
+    "n": 200,
+    "seed": 15,
+    "feasible": true,
+    "cost": 3223.7523457679677,
+    "n_clients_servis": 200
+  },
+  "n200_seed16": {
+    "n": 200,
+    "seed": 16,
+    "feasible": true,
+    "cost": 3097.836468115325,
+    "n_clients_servis": 200
+  },
+  "n200_seed17": {
+    "n": 200,
+    "seed": 17,
+    "feasible": true,
+    "cost": 3330.7062020200838,
+    "n_clients_servis": 200
+  },
+  "n200_seed18": {
+    "n": 200,
+    "seed": 18,
+    "feasible": true,
+    "cost": 3181.315382016639,
+    "n_clients_servis": 200
+  },
+  "n200_seed19": {
+    "n": 200,
+    "seed": 19,
+    "feasible": true,
+    "cost": 3121.9819842741504,
+    "n_clients_servis": 200
+  },
+  "n200_seed20": {
+    "n": 200,
+    "seed": 20,
+    "feasible": true,
+    "cost": 3288.9651801107325,
+    "n_clients_servis": 200
+  },
+  "n200_seed21": {
+    "n": 200,
+    "seed": 21,
+    "feasible": true,
+    "cost": 3099.2753897341945,
+    "n_clients_servis": 200
+  },
+  "n200_seed22": {
+    "n": 200,
+    "seed": 22,
+    "feasible": true,
+    "cost": 3305.0441710685254,
+    "n_clients_servis": 200
+  },
+  "n200_seed23": {
+    "n": 200,
+    "seed": 23,
+    "feasible": true,
+    "cost": 3275.851162921209,
+    "n_clients_servis": 200
+  },
+  "n200_seed24": {
+    "n": 200,
+    "seed": 24,
+    "feasible": true,
+    "cost": 3127.99354289808,
+    "n_clients_servis": 200
+  },
+  "n200_seed25": {
+    "n": 200,
+    "seed": 25,
+    "feasible": true,
+    "cost": 3253.291713253128,
+    "n_clients_servis": 200
+  },
+  "n200_seed26": {
+    "n": 200,
+    "seed": 26,
+    "feasible": true,
+    "cost": 3286.98162755763,
+    "n_clients_servis": 200
+  },
+  "n200_seed27": {
+    "n": 200,
+    "seed": 27,
+    "feasible": true,
+    "cost": 3469.8969178745037,
+    "n_clients_servis": 200
+  },
+  "n200_seed28": {
+    "n": 200,
+    "seed": 28,
+    "feasible": true,
+    "cost": 3141.4156433950193,
+    "n_clients_servis": 200
+  },
+  "n200_seed29": {
+    "n": 200,
+    "seed": 29,
+    "feasible": true,
+    "cost": 3102.4858596689087,
+    "n_clients_servis": 200
+  }
+}
