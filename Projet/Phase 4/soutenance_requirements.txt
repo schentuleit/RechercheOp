@@ -1,0 +1,27 @@
+Modélisation						
+Identification du problème			Le périmètre d'étude des problèmes est bien défini : reformulation du besoin, rappel des objectifs de l'étude, choix des contraintes, identification du problème au problème de Tournée de véhicules et du bin packing.			
+Définition mathématique du problème			Le problème est bien défini mathématiquement (fonction objectif, contraintes).			
+Complexité			La complexité du problème de décision du  problème de Tournée de véhicules est démontrée			
+			"L'étude de la complexité est adaptée au problème  (problème de Tournée de véhicules présenté comme variante simple, 
+preuve que les extensions respectent la preuve de NPc)"			
+			Les étudiants doivent faire remarquer que le problème est NP-difficile.			
+Documentation de l'étude			Des références d'articles scientifiques ou ouvrages spécialisés ont été incluses dans le notebook (problème théorique et méthode de résolution)			
+Méthode de résolution			La méthode de résolution est expliquée : présentation du choix et description de l'algorithme, y compris les adaptations au problème considéré (type de voisinage, principe de mutation...). Le positionnement sur des graphes complets malgré l'objectif de traiter des graphes incomplets est justifié.			
+Présentation du travail			L'ensemble de ces points est présenté de manière claire et pédagogique. L'écrit est de qualité (pas de fautes d'orthographe et de grammaire).			
+						
+Implémentation et exploitation						
+Datasets			Les instances de problèmes ont été générées aléatoirement			
+			Ces instances sont de taille acceptable.			
+Implémentation de l'algorithme de résolution			Le programme linéaire et au moins une méta-heuristique permettant de résoudre le problème ont été implémentés en Python 			
+			Un ou plusieurs scénarios d'exécution sont inclus (différentes instances, identifiées comme faciles où non), avec les explications correctes concernant le fonctionnement de l'algorithme			
+Plan d'experience			Un plan d'expérience a été proposé et respecté			
+Étude expérimentale de la qualité			L'impact des paramètres du solveur OU d'une méta heuristique sur le temps de convergence est présenté à l'aide de statistiques descriptives adaptées (moyenne et écart-type, ou médiane et écart absolu médian).  Le nombre de cas testé est suffisament représentatif.			
+						
+			Une interprétation est proposée pour chacun des résultats statistiques présentés, incluant des conclusions et/ou des pistes d'amélioration			
+			L'impact des paramètres de l'instance du problème (distribution des valeurs, taille des routes, nombre de villes,...)  sur le temps de convergence est présenté à l'aide de statistiques descriptives adaptées (moyenne et écart-type, ou médiane et écart absolu médian).  Le nombre de cas testé est suffisament représentatif.			
+Présentation du travail			L'ensemble de ces points est présenté de manière claire et pédagogique. L'écrit est de qualité (pas de fautes d'orthographe et de grammaire).			
+						
+Soutenance : Etat d'avancement du projet						
+Contenu de la présentation			Le contenu est complet, bien organisé, et couvre tous les aspects essentiels du projet. Toutes les informations clés, telles que les objectifs, l'avancement, les résultats, les défis, et les prochaines étapes, sont clairement présentées.			
+Qualité du discours, argumentation			Le discours est clair, articulé, et bien structuré. L'orateur démontre une compréhension approfondie du sujet et utilise des arguments solides pour soutenir chaque point.			
+Expression orale			L'orateur parle de manière claire, audible, et avec une bonne élocution. Il s'exprime en respectant les règles grammaticales. 			
