@@ -46,12 +46,30 @@ class DecisionDataset(Dataset):
 
 
 def collate_decisions(batch: Sequence[Dict[str, torch.Tensor]]) -> Dict[str, torch.Tensor]:
+    # node_features, action_features, feasible_mask ont des tailles variables selon n
+    # → padding à la taille max du batch
+    max_nodes = max(x["node_features"].shape[0] for x in batch)
+
+    def pad_2d(t: torch.Tensor) -> torch.Tensor:
+        """Pad (N, d) → (max_nodes, d) avec des zéros."""
+        pad = max_nodes - t.shape[0]
+        if pad == 0:
+            return t
+        return torch.cat([t, torch.zeros(pad, t.shape[1], dtype=t.dtype)], dim=0)
+
+    def pad_1d(t: torch.Tensor) -> torch.Tensor:
+        """Pad (N,) → (max_nodes,) avec des zéros (nœuds paddés = infaisables)."""
+        pad = max_nodes - t.shape[0]
+        if pad == 0:
+            return t
+        return torch.cat([t, torch.zeros(pad, dtype=t.dtype)], dim=0)
+
     return {
-        "node_features": torch.stack([x["node_features"] for x in batch], dim=0),
-        "action_features": torch.stack([x["action_features"] for x in batch], dim=0),
-        "current_node": torch.stack([x["current_node"] for x in batch], dim=0),
-        "dynamic_global": torch.stack([x["dynamic_global"] for x in batch], dim=0),
-        "feasible_mask": torch.stack([x["feasible_mask"] for x in batch], dim=0),
+        "node_features":    torch.stack([pad_2d(x["node_features"]) for x in batch], dim=0),
+        "action_features":  torch.stack([pad_2d(x["action_features"]) for x in batch], dim=0),
+        "current_node":     torch.stack([x["current_node"] for x in batch], dim=0),
+        "dynamic_global":   torch.stack([x["dynamic_global"] for x in batch], dim=0),
+        "feasible_mask":    torch.stack([pad_1d(x["feasible_mask"]) for x in batch], dim=0),
         "target_next_node": torch.stack([x["target_next_node"] for x in batch], dim=0),
     }
 
@@ -203,6 +221,9 @@ def main() -> None:
     parser.add_argument("--seed", type=int, default=123)
     parser.add_argument("--split_seed", type=int, default=123)
     parser.add_argument("--save_dir", type=str, default="artifacts_train_small")
+    parser.add_argument("--output", type=str, default=None,
+                        help="Nom du fichier .pt de sortie (ex: best_model_n20.pt). "
+                             "Par défaut : best_model.pt dans save_dir.")
     args = parser.parse_args()
 
     set_seed(args.seed)
@@ -276,7 +297,7 @@ def main() -> None:
 
     history: List[Dict[str, float]] = []
     best_val_acc = -1.0
-    best_model_path = os.path.join(args.save_dir, "best_model.pt")
+    best_model_path = os.path.join(args.save_dir, args.output if args.output else "best_model.pt")
     history_path = os.path.join(args.save_dir, "history.json")
     config_path = os.path.join(args.save_dir, "config.json")
 
@@ -311,6 +332,10 @@ def main() -> None:
             f"{current_lr:8.2e}"
         )
 
+        # Sauvegarde history après chaque epoch (monitoring en temps réel)
+        with open(history_path, "w", encoding="utf-8") as f:
+            json.dump(history, f, indent=2, ensure_ascii=False)
+
         if row["val_acc"] > best_val_acc:
             best_val_acc = row["val_acc"]
             torch.save(
@@ -330,9 +355,6 @@ def main() -> None:
                 },
                 best_model_path,
             )
-
-    with open(history_path, "w", encoding="utf-8") as f:
-        json.dump(history, f, indent=2, ensure_ascii=False)
 
     print("\n=== Fin entraînement ===")
     print(f"Meilleure val_acc : {best_val_acc:.2%}")

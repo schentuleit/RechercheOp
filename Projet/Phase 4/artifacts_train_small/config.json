@@ -1,8 +1,8 @@
 {
-  "data": "decision_dataset_n20.npy",
+  "data": "decision_dataset_mixed.npy",
   "epochs": 50,
   "batch_size": 64,
-  "lr": 0.0001,
+  "lr": 0.001,
   "d_model": 128,
   "n_heads": 8,
   "n_layers": 3,
@@ -10,5 +10,6 @@
   "val_ratio": 0.2,
   "seed": 123,
   "split_seed": 123,
-  "save_dir": "artifacts_train_small"
+  "save_dir": "artifacts_train_small",
+  "output": "best_model.pt"
 }

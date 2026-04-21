@@ -189,11 +189,12 @@ def solve_all_am(overwrite: bool = False) -> Dict[str, object]:
         return {}
 
     # Import AM
-    from decoder import decode_vrptw_with_repair, verify_solution, nearest_feasible_scorer
+    from decoder import decode_vrptw_beam_search, verify_solution, nearest_feasible_scorer
     from inference_decoder import load_trained_model, TorchModelScorer
 
     model  = load_trained_model(str(checkpoint))
     scorer = TorchModelScorer(model=model)
+    BEAM_WIDTH = 20
 
     if am_path.exists() and not overwrite:
         with open(am_path, encoding="utf-8") as f:
@@ -217,7 +218,7 @@ def solve_all_am(overwrite: bool = False) -> Dict[str, object]:
                 continue
 
             instance = load_instance(n, seed)
-            result   = decode_vrptw_with_repair(instance, scorer=scorer)
+            result   = decode_vrptw_beam_search(instance, scorer=scorer, beam_width=BEAM_WIDTH)
             checks   = verify_solution(instance, result)
 
             results[key] = {
