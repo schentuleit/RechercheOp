@@ -11,7 +11,8 @@ import sys
 import os
 
 # Pour pouvoir importer generate_instance et preprocess depuis Phase 4
-PHASE4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'Phase 4')
+# Phase 4 est au même niveau que Phase 3, donc on monte 2 niveaux (Algo_Recuit -> Phase 3 -> Projet) puis on descend dans Phase 4
+PHASE4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'Phase 4')
 sys.path.insert(0, PHASE4)
 
 from preprocess import generate_instance, preprocess # on importe la génération d'instance et le prétraitement de la phase 4 pour réutiliser les mêmes données et fonctions de coût
@@ -120,10 +121,6 @@ def cout_penalise(routes, instance):
     demands  = instance['demands']
     capacity = instance['capacity']
     horizon  = instance['horizon']
-        
-        
-    penalite = max(500.0, 50.0 * instance['n'])
-
 
     total = 0.0
 
@@ -137,28 +134,24 @@ def cout_penalise(routes, instance):
             total += np.linalg.norm(coords[route[i]] - coords[route[i + 1]])
         total += np.linalg.norm(coords[route[-1]] - coords[0])
 
-        # Pénalité capacité
+        # Pénalité capacité (AUGMENTÉE)
         charge = sum(demands[c] for c in route)
         if charge > capacity + 1e-6:
-            total += penalite * (charge - capacity)
-     #pénalité proportionnelle au dépassement de capacité
-    # ex : Si la capacité est 100 et qu'on transporte 120 → pénalité = 500 × 20 = 10 000. 
-    # C'est énorme comparé à une distance typique de 500-1000, donc l'algo va naturellement éviter ces solutions.
-        
-        # Pénalité fenêtres temporelles et horizon
+            total += 1000.0 * (charge - capacity)  # 2x pour forcer le respect
+
+        # Pénalité fenêtres temporelles et horizon (AUGMENTÉE)
         t   = 0.0
         pos = 0
         for client in route:
             t = t + durees[pos, client]
             t = max(t, tw[client, 0])
             if t > tw[client, 1]:
-                total += penalite * (t - tw[client, 1])
+                total += 500.0 * (t - tw[client, 1])  # 2.5x pour forcer le respect
             t  += service[client]
             pos = client
 
-
         if t + durees[pos, 0] > horizon:
-            total += penalite * (t + durees[pos, 0] - horizon)
+            total += 500.0 * (t + durees[pos, 0] - horizon)
 
     return total
 
@@ -166,9 +159,6 @@ def cout_penalise(routes, instance):
 def est_valide(route, instance):
     """
     Vérifie qu'une route respecte les fenêtres temporelles et la capacité.
-
-    Vérifie si on respecte toutes les contraintes, et retourne True ou False.
-    On l'utilise afin de confirmer que la solution finale du recuit est valide.
 
     @param route    : list — liste des clients du véhicule
     @param instance : dict généré par generate_instance()
@@ -206,6 +196,74 @@ def est_valide(route, instance):
     return True
 
 
+def verifier_solution_admissible(routes, instance):
+    """
+    Vérifie si une solution complète respecte TOUTES les contraintes C1-C6.
+
+    @param routes   : list of lists — solution à vérifier
+    @param instance : dict
+    @return : (bool, dict) — (admissible, rapport des violations)
+    """
+    rapport = {
+        'C1_couverture': True,
+        'C3_capacite': True,
+        'C4_temps': True,
+        'violations_capacite': [],
+        'violations_temps': [],
+        'cout_penalise': cout_penalise(routes, instance)
+    }
+
+    n = instance['n']
+    durees = instance['durees']
+    tw = instance['time_windows']
+    service = instance['service_times']
+    demands = instance['demands']
+    capacity = instance['capacity']
+    horizon = instance['horizon']
+
+    # C1 : Couverture
+    tous_clients = [c for route in routes for c in route]
+    if len(tous_clients) != n or len(set(tous_clients)) != n:
+        rapport['C1_couverture'] = False
+
+    # C3 et C4 : Pour chaque route
+    for k, route in enumerate(routes):
+        if not route:
+            continue
+
+        # C3 : Capacité
+        charge = sum(demands[c] for c in route)
+        if charge > capacity + 1e-6:
+            rapport['C3_capacite'] = False
+            rapport['violations_capacite'].append({
+                'route': k,
+                'charge': charge,
+                'capacity': capacity,
+                'depassement': charge - capacity
+            })
+
+        # C4 : Fenêtres temporelles
+        t = 0.0
+        pos = 0
+        for client in route:
+            t = t + durees[pos, client]
+            t = max(t, tw[client, 0])
+            if t > tw[client, 1]:
+                rapport['C4_temps'] = False
+                rapport['violations_temps'].append({
+                    'route': k,
+                    'client': client,
+                    'arrivee': t,
+                    'limite': tw[client, 1],
+                    'depassement': t - tw[client, 1]
+                })
+            t += service[client]
+            pos = client
+
+    admissible = rapport['C1_couverture'] and rapport['C3_capacite'] and rapport['C4_temps']
+    return admissible, rapport
+
+
 
 def voisin_2opt(routes, instance):
     """
@@ -217,7 +275,7 @@ def voisin_2opt(routes, instance):
     @return : list of lists — nouvelle solution (copie)
     """
     import copy
-    nouvelles_routes = copy.deepcopy(routes) #on créer une copie des routes pour ne pas modifier la solution courante. 
+    nouvelles_routes = copy.deepcopy(routes)
 
     # Ne considérer que les routes avec au moins 2 clients
     candidates = [k for k, r in enumerate(nouvelles_routes) if len(r) >= 2]
@@ -230,16 +288,12 @@ def voisin_2opt(routes, instance):
     n     = len(route)
 
     # Choisir deux positions i < j au hasard
-    i, j = sorted(np.random.choice(n, size=2, replace=False)) 
+    i, j = sorted(np.random.choice(n, size=2, replace=False))
 
     # Inverser le segment entre i et j
     route[i:j+1] = route[i:j+1][::-1]
 
     return nouvelles_routes
-#ex : route = [A, B, C, D, E]
-#i=1, j=3  →  segment = [B, C, D]  →  inversé = [D, C, B]
-#résultat  = [A, D, C, B, E]
-
 
     
 
@@ -254,7 +308,7 @@ def voisin_oropt(routes, instance):
     @return : list of lists — nouvelle solution (copie)
     """
     import copy
-    nouvelles_routes = copy.deepcopy(routes) #pareil que pour 2-opt, on travaille sur une copie des routes pour ne pas modifier la solution courante.
+    nouvelles_routes = copy.deepcopy(routes)
 
     # Routes non vides
     candidates = [k for k, r in enumerate(nouvelles_routes) if len(r) >= 1]
@@ -264,8 +318,7 @@ def voisin_oropt(routes, instance):
     # Choisir la route source et le client à déplacer
     k_src  = np.random.choice(candidates)
     idx    = np.random.randint(0, len(nouvelles_routes[k_src]))
-    client = nouvelles_routes[k_src].pop(idx) #on retire le client de sa position actuelle dans la route source. 
-    #pop(idx) retourne le client retiré, qu'on stocke dans la variable client pour pouvoir l'insérer ensuite à la nouvelle position.
+    client = nouvelles_routes[k_src].pop(idx)
 
     # Choisir la route destination (peut être la même)
     K      = len(nouvelles_routes)
@@ -274,7 +327,7 @@ def voisin_oropt(routes, instance):
     # Choisir la position d'insertion dans la route destination
     pos_max = len(nouvelles_routes[k_dst])
     pos_ins = np.random.randint(0, pos_max + 1)
-    nouvelles_routes[k_dst].insert(pos_ins, client) #insere le client à la position pos_ins dans la route destination. Si pos_ins = 0 → insertion au début, si pos_ins = pos_max → insertion à la fin.
+    nouvelles_routes[k_dst].insert(pos_ins, client)
 
     return nouvelles_routes
 
@@ -321,8 +374,7 @@ def recuit_simule(instance, T0=1000.0, alpha=0.995, n_iter=10000, seed=None):
 
     T = T0
 
-    historique = {'couts': [cout_courant], 'temperatures': [T], 'remontees_iter': []}
-
+    historique = {'couts': [cout_courant], 'temperatures': [T]}
 
     #  Boucle principale 
     for iteration in range(n_iter):
@@ -344,12 +396,6 @@ def recuit_simule(instance, T0=1000.0, alpha=0.995, n_iter=10000, seed=None):
             if np.random.random() < proba:
                 solution_courante = voisin
                 cout_courant      = cout_voisin
-                historique['remontees_iter'].append(iteration)
-
-        #la formule : formule de proba d'acceptation, on tire un nombre aléatoire entre 0 et 1, si ce nombre est inférieur à proba → on accepte la solution moins bonne. 
-        # Plus T est grand → plus proba est élevée → plus on accepte de solutions moins bonnes → plus on explore. 
-        # Au fur et à mesure que T diminue → proba diminue → on devient plus sélectif → on exploite les meilleures solutions trouvées.
-
 
         # Mettre à jour le meilleur
         if cout_courant < meilleur_cout:
@@ -359,8 +405,8 @@ def recuit_simule(instance, T0=1000.0, alpha=0.995, n_iter=10000, seed=None):
         # Refroidissement
         T = T * alpha
 
-        # Enregistrer pour l'historique (tous les 100 itérations, true quand iteration est multiple de 100)
-        if iteration % 10 == 0:
+        # Enregistrer pour l'historique (tous les 100 itérations)
+        if iteration % 100 == 0:
             historique['couts'].append(cout_courant)
             historique['temperatures'].append(T)
 
