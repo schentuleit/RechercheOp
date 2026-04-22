@@ -136,12 +136,12 @@ def selectionner_meilleurs(population, couts, k):
     @return : (meilleurs_parents, leurs_couts)
     """
     indices_tries = np.argsort(couts)       # tri croissant (moins cher = meilleur)
-    indices_les_meilleurs = indices_tries[:k]
+    indices_les_meilleurs = indices_tries[:k] # ← GARDE les k meilleurs
 
-    meilleurs       = [population[i] for i in indices_les_meilleurs]
+    meilleurs       = [population[i] for i in indices_les_meilleurs] # les parents retenus
     meilleurs_couts = [couts[i]      for i in indices_les_meilleurs]
 
-    return meilleurs, meilleurs_couts
+    return meilleurs, meilleurs_couts 
 
 
 # ═══════════════════════════════════════════════════════════════════

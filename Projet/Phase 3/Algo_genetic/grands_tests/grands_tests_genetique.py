@@ -32,19 +32,16 @@ from genetic_algorithm import algorithme_genetique, verifier_c1
 # ─────────────────────────────────────────────────────────────────
 # CONFIGURATION
 # ─────────────────────────────────────────────────────────────────
-TAILLES     = [10, 20, 50, 100, 200]   # tailles testées (identique au camarade)
-N_RUNS      = 30                        # runs par taille
+TAILLES     = [10, 20]                  # tailles testées (réduit pour test)
+N_RUNS      = 2                         # runs par taille (réduit pour test)
 RESULTATS_DIR = os.path.join(BASE_DIR, '..', 'resultats')
 CSV_PATH    = os.path.join(RESULTATS_DIR, 'resultats_genetique.csv')
 
 # Hyperparamètres de l'algo génétique
 # (adaptés à la taille pour que le temps reste raisonnable)
 PARAMS_PAR_TAILLE = {
-    10 : {'taille_pop': 30,  'n_generations': 100, 'taux_mutation': 0.3},
-    20 : {'taille_pop': 30,  'n_generations': 100, 'taux_mutation': 0.3},
-    50 : {'taille_pop': 40,  'n_generations': 150, 'taux_mutation': 0.3},
-    100: {'taille_pop': 50,  'n_generations': 200, 'taux_mutation': 0.25},
-    200: {'taille_pop': 60,  'n_generations': 200, 'taux_mutation': 0.2},
+    10 : {'taille_pop': 20,  'n_generations': 30, 'taux_mutation': 0.3},
+    20 : {'taille_pop': 20,  'n_generations': 30, 'taux_mutation': 0.3},
 }
 
 
@@ -100,7 +97,7 @@ def lancer_grands_tests():
                 seed_algo = run
 
                 instance = generate_instance(
-                    n_clients  = n,
+                    n          = n,
                     n_vehicles = n_vehicles,
                     seed       = seed_inst
                 )
