@@ -1,15 +1,15 @@
-# Projet RO CESI — Pipeline
+# Projet RO CESI - Pipeline
 
 ## Problème
 
-**VRPTW** (Vehicle Routing Problem with Time Windows) — TSP enrichi : tournée à distance/durée minimale avec retour au dépôt.
+**VRPTW** (Vehicle Routing Problem with Time Windows) - TSP enrichi : tournée à distance/durée minimale avec retour au dépôt.
 
 **Contraintes retenues :** fenêtres temporelles + multi-véhicules avec capacité  
-**Complexité :** NP-difficile — $(n-1)!/2$ tournées possibles
+**Complexité :** NP-difficile - $(n-1)!/2$ tournées possibles
 
 ---
 
-## Phase 1 — Modélisation + Générateur d'instances
+## Phase 1 - Modélisation + Générateur d'instances
 
 > **Livrable :** check
 
@@ -17,12 +17,12 @@
 - Définir les contraintes VRPTW formellement
 - Démontrer la complexité NP (réduction depuis hamiltonien)
 - Coder le générateur Python : graphes aléatoires, coordonnées euclidiennes, fenêtres temporelles, capacités
-- Sortie : instances standardisées (numpy/JSON) — réutilisées par **toutes** les phases suivantes
+- Sortie : instances standardisées (numpy/JSON) - réutilisées par **toutes** les phases suivantes
 - Justifier les paramètres des instances (taille, densité du graphe, bornes des time windows, capacité)
 
 ---
 
-## Phase 2 — Méthode 1 : NNH + 2-opt
+## Phase 2 - Méthode 1 : NNH + 2-opt
 
 > **Livrable :** final partie 2
 
@@ -35,7 +35,7 @@
 
 ---
 
-## Phase 3 — Méthode 2 : Recuit Simulé
+## Phase 3 - Méthode 2 : Recuit Simulé
 
 > **Livrable :** final partie 2
 
@@ -48,9 +48,9 @@
 
 ---
 
-## Phase 4 — Méthode 3 : Deep Learning (RL)
+## Phase 4 - Méthode 3 : Deep Learning (RL)
 
-> **Livrable :** final — étude expérimentale
+> **Livrable :** final - étude expérimentale
 
 - **Approche :** Reinforcement Learning
 - **Environnement :** état = villes restantes + heure courante + capacité restante
@@ -58,15 +58,15 @@
 - **Récompense :** $-\text{distance totale}$ (+ pénalité si contrainte violée)
 - **Modèle :** MLP pour commencer, puis réseau d'attention si le temps le permet
 - Entraîné sur les instances du générateur phase 1
-- **Référence :** Kool et al. 2019 — *Attention, Learn to Solve Routing Problems*
+- **Référence :** Kool et al. 2019 - *Attention, Learn to Solve Routing Problems*
 - **Important :** commencer dès la fin de la phase 2, pas en dernière semaine
 - **Avantage clé :** temps d'inférence constant (ms) quelle que soit la taille
 
 ---
 
-## Phase 5 — Étude expérimentale statistique (3 méthodes)
+## Phase 5 - Étude expérimentale statistique (3 méthodes)
 
-> **Livrable :** final — plan d'expérience
+> **Livrable :** final - plan d'expérience
 
 - **Instances :** $n = 10, 20, 50, 100, 200$ villes
 - **Métriques :** qualité de solution (% vs optimal), temps de calcul, écart-type, comportement sous contraintes
@@ -80,8 +80,8 @@
 
 | Livrable | Contenu |
 |---|---|
-| Livrable check | Phase 1 — modélisation + complexité, pas de code résolution |
-| Livrable final | Phases 2-3-4-5 — notebook Jupyter, storytelling, PEP8 |
+| Livrable check | Phase 1 - modélisation + complexité, pas de code résolution |
+| Livrable final | Phases 2-3-4-5 - notebook Jupyter, storytelling, PEP8 |
 | Soutenance | Démo sur petites instances, résultats comparatifs, planning |
 
 ---
@@ -93,12 +93,12 @@
 | `networkx` | Graphes |
 | `numpy` / `matplotlib` | Calcul + visualisation |
 | `scipy` | Optimisation |
-| `torch` + `gymnasium` | RL — phase 4 |
+| `torch` + `gymnasium` | RL - phase 4 |
 
 ---
 
 ## Notes
 
-- Le générateur phase 1 doit être propre et réutilisable dès le début — socle de tout
+- Le générateur phase 1 doit être propre et réutilisable dès le début - socle de tout
 - DL = 3e méthode de résolution, répond à l'exigence "au moins 2" en forçant la note
 - Comparaison 3 méthodes = cœur de l'étude expérimentale et argument soutenance
