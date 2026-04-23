@@ -1,0 +1,57 @@
+[
+  {
+    "n": 10,
+    "oracle": "381.2",
+    "cost_n10": 404.7,
+    "gap_n10": "+6.2%",
+    "cost_n20": 418.1,
+    "gap_n20": "+9.7%",
+    "cost_mixed": 410.1,
+    "gap_mixed": "+7.6%",
+    "delta_mixed_vs_n10": "+1.3%"
+  },
+  {
+    "n": 20,
+    "oracle": "530.9",
+    "cost_n10": 644.9,
+    "gap_n10": "+21.5%",
+    "cost_n20": 627.0,
+    "gap_n20": "+18.1%",
+    "cost_mixed": 625.0,
+    "gap_mixed": "+17.7%",
+    "delta_mixed_vs_n10": "-3.1%"
+  },
+  {
+    "n": 50,
+    "oracle": "\u2014",
+    "cost_n10": 1148.8,
+    "gap_n10": "\u2014",
+    "cost_n20": 1162.0,
+    "gap_n20": "\u2014",
+    "cost_mixed": 1122.2,
+    "gap_mixed": "\u2014",
+    "delta_mixed_vs_n10": "-2.3%"
+  },
+  {
+    "n": 100,
+    "oracle": "\u2014",
+    "cost_n10": 1843.5,
+    "gap_n10": "\u2014",
+    "cost_n20": 1850.9,
+    "gap_n20": "\u2014",
+    "cost_mixed": 1778.8,
+    "gap_mixed": "\u2014",
+    "delta_mixed_vs_n10": "-3.5%"
+  },
+  {
+    "n": 200,
+    "oracle": "\u2014",
+    "cost_n10": 3049.4,
+    "gap_n10": "\u2014",
+    "cost_n20": 3114.3,
+    "gap_n20": "\u2014",
+    "cost_mixed": 3013.3,
+    "gap_mixed": "\u2014",
+    "delta_mixed_vs_n10": "-1.2%"
+  }
+]
