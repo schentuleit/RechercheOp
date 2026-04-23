@@ -1,0 +1,477 @@
+{
+  "runs": [
+    {
+      "n_clients": 10,
+      "run": 1,
+      "cout": 519.551,
+      "temps_s": 0.3777,
+      "n_vehicules": 3,
+      "amelioration_pct": 97.93,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 2,
+      "cout": 421.432,
+      "temps_s": 0.3581,
+      "n_vehicules": 3,
+      "amelioration_pct": 25.23,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 3,
+      "cout": 360.869,
+      "temps_s": 0.3693,
+      "n_vehicules": 3,
+      "amelioration_pct": 17.39,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 4,
+      "cout": 381.812,
+      "temps_s": 0.3695,
+      "n_vehicules": 3,
+      "amelioration_pct": 11.27,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 5,
+      "cout": 483.59,
+      "temps_s": 0.375,
+      "n_vehicules": 3,
+      "amelioration_pct": 99.17,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 6,
+      "cout": 477.331,
+      "temps_s": 0.3772,
+      "n_vehicules": 3,
+      "amelioration_pct": 31.06,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 7,
+      "cout": 501.936,
+      "temps_s": 0.3792,
+      "n_vehicules": 3,
+      "amelioration_pct": 24.62,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 8,
+      "cout": 456.097,
+      "temps_s": 0.395,
+      "n_vehicules": 3,
+      "amelioration_pct": 98.73,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 9,
+      "cout": 375.001,
+      "temps_s": 0.3765,
+      "n_vehicules": 3,
+      "amelioration_pct": 17.81,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 10,
+      "cout": 505.397,
+      "temps_s": 0.4108,
+      "n_vehicules": 3,
+      "amelioration_pct": 8.25,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 11,
+      "cout": 445.578,
+      "temps_s": 0.3934,
+      "n_vehicules": 3,
+      "amelioration_pct": 96.54,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 12,
+      "cout": 471.568,
+      "temps_s": 0.3902,
+      "n_vehicules": 3,
+      "amelioration_pct": 10.08,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 13,
+      "cout": 493.689,
+      "temps_s": 0.3891,
+      "n_vehicules": 3,
+      "amelioration_pct": 5.32,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 14,
+      "cout": 548.7,
+      "temps_s": 0.3964,
+      "n_vehicules": 3,
+      "amelioration_pct": 98.5,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 10,
+      "run": 15,
+      "cout": 378.318,
+      "temps_s": 0.3883,
+      "n_vehicules": 3,
+      "amelioration_pct": 5.6,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 1,
+      "cout": 844.81,
+      "temps_s": 0.7036,
+      "n_vehicules": 3,
+      "amelioration_pct": 99.02,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 2,
+      "cout": 749.8,
+      "temps_s": 0.6795,
+      "n_vehicules": 3,
+      "amelioration_pct": 79.46,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 3,
+      "cout": 767.135,
+      "temps_s": 0.7067,
+      "n_vehicules": 3,
+      "amelioration_pct": 94.78,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 4,
+      "cout": 775.562,
+      "temps_s": 0.6665,
+      "n_vehicules": 3,
+      "amelioration_pct": 85.32,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 5,
+      "cout": 694.704,
+      "temps_s": 0.6955,
+      "n_vehicules": 3,
+      "amelioration_pct": 80.57,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 6,
+      "cout": 874.987,
+      "temps_s": 0.7008,
+      "n_vehicules": 3,
+      "amelioration_pct": 94.32,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 7,
+      "cout": 703.614,
+      "temps_s": 0.6749,
+      "n_vehicules": 3,
+      "amelioration_pct": 60.81,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 8,
+      "cout": 876.972,
+      "temps_s": 0.6704,
+      "n_vehicules": 3,
+      "amelioration_pct": 94.54,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 9,
+      "cout": 657.561,
+      "temps_s": 0.7113,
+      "n_vehicules": 3,
+      "amelioration_pct": 79.44,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 10,
+      "cout": 917.984,
+      "temps_s": 0.6935,
+      "n_vehicules": 3,
+      "amelioration_pct": 91.31,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 11,
+      "cout": 835.052,
+      "temps_s": 0.6849,
+      "n_vehicules": 3,
+      "amelioration_pct": 83.83,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 12,
+      "cout": 735.237,
+      "temps_s": 0.7135,
+      "n_vehicules": 3,
+      "amelioration_pct": 84.15,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 13,
+      "cout": 780.245,
+      "temps_s": 0.6835,
+      "n_vehicules": 3,
+      "amelioration_pct": 73.19,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 14,
+      "cout": 868.428,
+      "temps_s": 0.6822,
+      "n_vehicules": 3,
+      "amelioration_pct": 63.41,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 20,
+      "run": 15,
+      "cout": 744.874,
+      "temps_s": 0.6863,
+      "n_vehicules": 3,
+      "amelioration_pct": 94.97,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 50,
+      "run": 1,
+      "cout": 1552.74,
+      "temps_s": 3.6093,
+      "n_vehicules": 5,
+      "amelioration_pct": 59.04,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 50,
+      "run": 2,
+      "cout": 1459.787,
+      "temps_s": 3.6165,
+      "n_vehicules": 5,
+      "amelioration_pct": 47.37,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 50,
+      "run": 3,
+      "cout": 1535.837,
+      "temps_s": 3.6378,
+      "n_vehicules": 5,
+      "amelioration_pct": 54.78,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 50,
+      "run": 4,
+      "cout": 1432.09,
+      "temps_s": 3.4596,
+      "n_vehicules": 5,
+      "amelioration_pct": 72.33,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 50,
+      "run": 5,
+      "cout": 1502.719,
+      "temps_s": 3.5315,
+      "n_vehicules": 5,
+      "amelioration_pct": 58.15,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 50,
+      "run": 6,
+      "cout": 1542.965,
+      "temps_s": 3.6427,
+      "n_vehicules": 5,
+      "amelioration_pct": 54.77,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 50,
+      "run": 7,
+      "cout": 1547.848,
+      "temps_s": 3.5481,
+      "n_vehicules": 5,
+      "amelioration_pct": 54.59,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 50,
+      "run": 8,
+      "cout": 1565.988,
+      "temps_s": 3.5819,
+      "n_vehicules": 5,
+      "amelioration_pct": 67.78,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 100,
+      "run": 1,
+      "cout": 3225.666,
+      "temps_s": 9.9849,
+      "n_vehicules": 10,
+      "amelioration_pct": 50.81,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 100,
+      "run": 2,
+      "cout": 2790.762,
+      "temps_s": 10.0697,
+      "n_vehicules": 10,
+      "amelioration_pct": 45.63,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 100,
+      "run": 3,
+      "cout": 3120.398,
+      "temps_s": 10.4512,
+      "n_vehicules": 10,
+      "amelioration_pct": 46.89,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 100,
+      "run": 4,
+      "cout": 2658.595,
+      "temps_s": 10.1643,
+      "n_vehicules": 10,
+      "amelioration_pct": 43.34,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 200,
+      "run": 1,
+      "cout": 6133.925,
+      "temps_s": 26.6906,
+      "n_vehicules": 20,
+      "amelioration_pct": 25.42,
+      "c1_respectee": 1
+    },
+    {
+      "n_clients": 200,
+      "run": 2,
+      "cout": 5846.62,
+      "temps_s": 24.6946,
+      "n_vehicules": 20,
+      "amelioration_pct": 28.39,
+      "c1_respectee": 1
+    }
+  ],
+  "sens": {
+    "ngen": {
+      "10": [
+        16.08,
+        13.0,
+        11.44,
+        9.82,
+        9.13,
+        6.93
+      ],
+      "20": [
+        40.2,
+        41.25,
+        38.61,
+        42.08,
+        40.73,
+        37.67
+      ],
+      "50": [
+        69.22,
+        71.42,
+        67.7,
+        69.41,
+        69.63,
+        66.67
+      ]
+    },
+    "mut": {
+      "10": [
+        12.33,
+        11.41,
+        11.44,
+        6.48,
+        8.26
+      ],
+      "20": [
+        38.49,
+        40.27,
+        38.61,
+        41.28,
+        42.43
+      ],
+      "50": [
+        71.11,
+        67.0,
+        69.41,
+        70.98,
+        69.97
+      ]
+    },
+    "pop": {
+      "10": [
+        13.95,
+        9.88,
+        11.44,
+        8.37,
+        7.49,
+        7.21
+      ],
+      "20": [
+        41.9,
+        40.96,
+        38.61,
+        39.55,
+        39.25,
+        39.9
+      ],
+      "50": [
+        70.04,
+        73.75,
+        72.55,
+        69.41,
+        71.78,
+        71.96
+      ]
+    }
+  }
+}

@@ -10,10 +10,9 @@ import time
 import sys
 import os
 
-# Pour pouvoir importer generate_instance et preprocess depuis Phase 4
-# Phase 4 est au même niveau que Phase 3, donc on monte 2 niveaux (Algo_Recuit -> Phase 3 -> Projet) puis on descend dans Phase 4
-PHASE4 = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'Phase 4')
-sys.path.insert(0, PHASE4)
+# Import du générateur d'instances (preprocess.py à la racine de RenduFinal2)
+RENDU = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
+sys.path.insert(0, RENDU)
 
 from preprocess import generate_instance, preprocess # on importe la génération d'instance et le prétraitement de la phase 4 pour réutiliser les mêmes données et fonctions de coût
 
