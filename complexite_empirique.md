@@ -2,6 +2,59 @@
 
 ---
 
+## 0. Vulgarisation — l'idée en langage courant
+
+### Le problème concret
+
+Tu as un algorithme. Tu le fais tourner sur des problèmes de taille 10, 20, 50, 100, 200 clients. Tu mesures à chaque fois combien de temps il met. Tu obtiens un tableau comme ça :
+
+| $n$ (clients) | Temps mesuré |
+|---|---|
+| 10 | 0.0001 s |
+| 20 | 0.0004 s |
+| 50 | 0.0025 s |
+| 100 | 0.010 s |
+| 200 | 0.040 s |
+
+**Question** : Si demain tu dois résoudre un problème avec 1000 clients, combien de temps ça va prendre ?
+
+Pour répondre, il faut trouver la **loi** qui relie le temps à la taille. C'est ça, la complexité empirique.
+
+---
+
+### L'idée intuitive : chercher la loi cachée
+
+Regarde les données ci-dessus. Quand $n$ double (de 100 à 200), le temps est multiplié par 4 (de 0.010 à 0.040). Quand $n$ est multiplié par 5 (de 10 à 50), le temps est multiplié par 25. Dans les deux cas : **le temps = $n$ au carré**.
+
+C'est une **loi puissance** : $T = a \times n^p$. Ici $p = 2$.
+
+Le graphique log-log permet de trouver $p$ **visuellement et mathématiquement**, même quand ce n'est pas aussi évident.
+
+---
+
+### Pourquoi "log-log" ?
+
+Imagine que tu veux peser des objets dont la masse va de 1 gramme (une fourmi) à 1 000 000 grammes (une voiture). Sur une balance classique graduée de 1 en 1, la fourmi est invisible. Une **échelle logarithmique** espace les ordres de grandeur : 1g, 10g, 100g, 1000g, … sont équidistants. Chaque graduation = ×10.
+
+C'est pareil ici : nos temps vont de 0.0001 s à 0.04 s. Sur un axe normal, les petites valeurs s'écrasent. Sur un axe log, tout est lisible.
+
+Mais il y a un bonus mathématique : **en log-log, une loi puissance devient une droite**. Et la pente de cette droite, c'est directement l'exposant $p$ — c'est-à-dire la complexité.
+
+---
+
+### Le résultat en clair
+
+Sur le graphique, le code calcule la pente de la droite et affiche :
+
+$$T \propto n^{2.03} \quad (R^2 = 0.99)$$
+
+- **$n^{2.03}$** : le temps croît comme $n^2$ → c'est un algorithme $O(n^2)$, confirmé par les données réelles
+- **$R^2 = 0.99$** : la droite colle à 99% aux points mesurés → le modèle est fiable
+
+En pratique : si $n$ double, le temps est multiplié par $2^{2.03} \approx 4$. Si $n$ est multiplié par 10, le temps est multiplié par $10^{2.03} \approx 107$.
+
+---
+
 ## 1. Le problème de départ
 
 On a mesuré le **temps d'exécution moyen** de l'algorithme pour différentes tailles d'instances $n \in \{10, 20, 50, 100, 200\}$.
